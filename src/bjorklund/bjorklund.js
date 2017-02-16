@@ -33,7 +33,7 @@ const recursivelyCalculate = (array) => {
   const difference = numberOfRemainders - numberOfSequences
   // console.log(`Remainders: ${numberOfRemainders}, Sequences: ${numberOfSequences}, Diff: ${difference}`)
   if (isEndOfAlgorithm(numberOfRemainders, numberOfSequences)) {
-    return array.join()
+    return array
   } else {
     let newArray = []
     if (difference > 0) {
