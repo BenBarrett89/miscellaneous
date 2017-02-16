@@ -4,7 +4,7 @@
   "description": "Some place to store miscellaneous code",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/BenBarrett89/miscellaneous/issues"
   },
-  "homepage": "https://github.com/BenBarrett89/miscellaneous#readme"
+  "homepage": "https://github.com/BenBarrett89/miscellaneous#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jasmine": "^2.5.3"
+  }
 }
