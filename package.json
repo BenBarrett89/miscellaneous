@@ -1,0 +1,19 @@
+{
+  "name": "miscellaneous",
+  "version": "1.0.0",
+  "description": "Some place to store miscellaneous code",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenBarrett89/miscellaneous.git"
+  },
+  "author": "Ben Barrett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenBarrett89/miscellaneous/issues"
+  },
+  "homepage": "https://github.com/BenBarrett89/miscellaneous#readme"
+}
