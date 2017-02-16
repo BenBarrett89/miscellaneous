@@ -56,4 +56,16 @@ describe('bjorklund.js', () => {
       expect(bjorklund.calculate(testOnes, testBits)).to.deep.equal(expectedArray)
     })
   })
+
+  describe('bjorklund.split', () => {
+    it('should exist', () => {
+      expect(bjorklund.split).to.exist
+    })
+
+    it('should split Bjorklund sequences into individual values', () => {
+      const testBjorklund = ['1000', '1000', '1000', '1000']
+      const expectedArray = ['1', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0']
+      expect(bjorklund.split(testBjorklund)).to.deep.equal(expectedArray)
+    })
+  })
 })

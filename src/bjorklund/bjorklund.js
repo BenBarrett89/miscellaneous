@@ -58,6 +58,13 @@ const calculate = (ones, bits) => {
   return result
 }
 
+const split = (bjorklund) => {
+  return bjorklund.reduce((array, sequence) => {
+    return array.concat(sequence.split(''))
+  }, [])
+}
+
 module.exports = {
-  calculate
+  calculate,
+  split
 }
