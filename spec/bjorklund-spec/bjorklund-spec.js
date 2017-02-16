@@ -46,5 +46,14 @@ describe('bjorklund.js', () => {
       const expectedArray = ['101', '101', '10']
       expect(bjorklund.calculate(testOnes, testBits)).to.deep.equal(expectedArray)
     })
+
+    it('should calculate optimal even spacing for mixture (bigger prime number)', () => {
+      const testOnes = 79
+      const testBits = 128
+      const expectedArray = [ '10110101101101011010110110101101101011010110110',
+        '10110101101101011010110110101101101011010110110',
+        '1011010110110101101011011010110110' ]
+      expect(bjorklund.calculate(testOnes, testBits)).to.deep.equal(expectedArray)
+    })
   })
 })
