@@ -1,7 +1,7 @@
 const expect = require('chai').expect
 
 describe('bjorklund.js', () => {
-  const bjorklund = require('../../src/bjorklund/bjorklund')
+  const bjorklund = require('./bjorklund')
 
   it('should exist', () => {
     expect(bjorklund).to.exist

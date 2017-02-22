@@ -1,7 +1,7 @@
 const expect = require('chai').expect
 
 describe('multi-bjorklund.js', () => {
-  const multiBjorklund = require('../../src/multi-bjorklund/multi-bjorklund')
+  const multiBjorklund = require('./multi-bjorklund')
 
   it('should exist', () => {
     expect(multiBjorklund).to.exist
