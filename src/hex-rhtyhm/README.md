@@ -7,7 +7,7 @@ Inspired by a [YouTube video](https://www.youtube.com/watch?v=6tNxfx2tetA) from 
 ### Combinations
 The combinations and their mapping to hexidecimal bit values are as follows (roughly made on [Guitar Pro 7](https://www.guitar-pro.com/)):
 
-![Hex Rhythm Mappings from 0 to F](./combinations.png)
+![Hex Rhythm Mappings from 0 to F](combinations.PNG)
 
 ## Code
 
