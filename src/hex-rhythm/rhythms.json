@@ -1,0 +1,20 @@
+{
+  "rhythms": [
+    { "number": 0, "code": "0", "rhythm": "1111" },
+    { "number": 1, "code": "1", "rhythm": "1110" },
+    { "number": 2, "code": "2", "rhythm": "1100" },
+    { "number": 3, "code": "3", "rhythm": "1000" },
+    { "number": 4, "code": "4", "rhythm": "1001" },
+    { "number": 5, "code": "5", "rhythm": "1011" },
+    { "number": 6, "code": "6", "rhythm": "1010" },
+    { "number": 7, "code": "7", "rhythm": "1101" },
+    { "number": 8, "code": "8", "rhythm": "0111" },
+    { "number": 9, "code": "9", "rhythm": "0110" },
+    { "number": 10, "code": "A", "rhythm": "0100" },
+    { "number": 11, "code": "B", "rhythm": "0011" },
+    { "number": 12, "code": "C", "rhythm": "0101" },
+    { "number": 13, "code": "D", "rhythm": "0010" },
+    { "number": 14, "code": "E", "rhythm": "0001" },
+    { "number": 15, "code": "F", "rhythm": "0000" }
+  ]
+}
