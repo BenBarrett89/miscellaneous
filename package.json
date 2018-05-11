@@ -19,5 +19,8 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "jasmine": "^2.5.3"
+  },
+  "dependencies": {
+    "scrape-it": "^5.0.4"
   }
 }
