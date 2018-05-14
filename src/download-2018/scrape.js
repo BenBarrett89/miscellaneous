@@ -44,7 +44,7 @@ const scrapePage = (
             : artist
         ))
         .sort((a, b) => a.name > b.name ? 1 : -1)
-        .forEach(artist => console.log(artist.name, artist.stage, artist.day))
+        .forEach(artist => console.log(`"${artist.name}", "${artist.stage}", "${artist.day}"`))
     })
     .catch(error => {
       console.log(error)
