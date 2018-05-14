@@ -13,8 +13,10 @@ const scrapePage = (
   requestPromise,
   urlOptions
 ) => requestPromise(urlOptions)
-  .then(htmlString => {
-    console.log(htmlString)
+  .then($ => {
+    $('.artist').each((index, element) => {
+      console.log($(element).find('a').text().trim())
+    })
   })
   .catch(error => {
     console.log(error)
