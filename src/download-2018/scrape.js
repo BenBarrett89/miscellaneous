@@ -12,15 +12,29 @@ const getOptions = (
 const scrapePage = (
   requestPromise,
   urlOptions
-) => requestPromise(urlOptions)
-  .then($ => {
-    $('.artist').each((index, element) => {
-      console.log($(element).find('a').text().trim())
+) => {
+  let artistArray = []
+  requestPromise(urlOptions)
+    .then($ => {
+      $('.artist').each((index, element) => {
+        const artist = $(element).find('a').text().trim()
+        artistArray.push(artist)
+      })
     })
-  })
-  .catch(error => {
-    console.log(error)
-})
+    .then(() => {
+      const reorderedArray = artistArray
+        .map(artist => {
+          return artist.startsWith('The')
+            ? `${artist.slice(4, artist.length)} (The)`
+            : artist
+        })
+        .sort()
+        .forEach(artist => console.log(artist))
+    })
+    .catch(error => {
+      console.log(error)
+    })
+}
 
 const options = getOptions(cheerio, `https://downloadfestival.co.uk/artists-a-z/`)
 
