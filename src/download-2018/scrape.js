@@ -18,18 +18,33 @@ const scrapePage = (
     .then($ => {
       $('.artist').each((index, element) => {
         const artist = $(element).find('a').text().trim()
-        artistArray.push(artist)
+        const rawDetails = $(element).find('p').text().trim().split(', ')
+        const details = rawDetails
+          .reduce((details, detail) => {
+            const colonIndex = detail.indexOf(`:`)
+            const type = detail.slice(0, colonIndex).toLowerCase()
+            const value = detail.slice(colonIndex + 2, detail.length)
+            return Object.assign(
+              {},
+              details,
+              {[type]: value}
+            )
+          }, {})
+        artistArray.push({
+          name: artist,
+          ...details
+        })
       })
     })
     .then(() => {
       const reorderedArray = artistArray
-        .map(artist => {
-          return artist.startsWith('The')
-            ? `${artist.slice(4, artist.length)} (The)`
+        .map(artist => (
+          artist.name.startsWith('The')
+            ? Object.assign({}, artist, { name: `${artist.name.slice(4, artist.name.length)} (The)`})
             : artist
-        })
-        .sort()
-        .forEach(artist => console.log(artist))
+        ))
+        .sort((a, b) => a.name > b.name ? 1 : -1)
+        .forEach(artist => console.log(artist.name, artist.stage, artist.day))
     })
     .catch(error => {
       console.log(error)
