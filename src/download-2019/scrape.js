@@ -38,7 +38,11 @@ const scrapePage = (requestPromise, urlOptions, stages, stageMap) => {
     })
     .then(() => {
       const reorderedArray = artistArray
-        .filter(artist => artist.stage !== 'wwe-nxt')
+        .filter(
+          artist =>
+            artist.stage !== 'wwe-nxt' &&
+            artist.stage !== 'the-sidesplitter-stage'
+        )
         .map(artist =>
           artist.name.startsWith('The')
             ? Object.assign({}, artist, {
@@ -60,14 +64,16 @@ const stages = [
   'avalanche',
   'main-stage',
   'the-dogtooth-stage',
-  'zippo-encore-stage',
-  'wwe-nxt'
+  'the-sidesplitter-stage',
+  'wwe-nxt',
+  'zippo-encore-stage'
 ]
 
 const stageMap = {
   avalanche: 'Avalanche Stage',
   'main-stage': 'Main Stage',
   'the-dogtooth-stage': 'The Dogtooth Stage',
+  'the-sidesplitter-stage': 'the-sidesplitter-stage',
   'zippo-encore-stage': 'Zippo Encore Stage',
   'wwe-nxt': 'wwe-nxt'
 }
