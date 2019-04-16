@@ -6,7 +6,7 @@ const getOptions = (parser, uri) => ({
   transform: body => parser.load(body)
 })
 
-const scrapePage = (requestPromise, urlOptions, stages, stageMap) => {
+const scrapePage = (requestPromise, urlOptions, stages, stageMap, trash) => {
   let artistArray = []
   requestPromise(urlOptions)
     .then($ => {
@@ -18,17 +18,28 @@ const scrapePage = (requestPromise, urlOptions, stages, stageMap) => {
         const classes = $(element)
           .attr('class')
           .split(' ')
-          .reduce((details, currentClass) => {
-            if (currentClass.endsWith('day')) {
-              details.day = `${currentClass
-                .charAt(0)
-                .toUpperCase()}${currentClass.slice(1)}`
-            }
-            if (stages.includes(currentClass)) {
-              details.stage = stageMap[currentClass]
-            }
-            return details
-          }, {})
+          .reduce(
+            (details, currentClass) => {
+              if (currentClass.endsWith('day')) {
+                details.day = `${currentClass
+                  .charAt(0)
+                  .toUpperCase()}${currentClass.slice(1)}`
+              } else if (stages.includes(currentClass)) {
+                details.stage = stageMap[currentClass]
+              } else if (
+                currentClass.length > 1 &&
+                !trash.includes(currentClass)
+              ) {
+                details.genres.push(
+                  `${currentClass.charAt(0).toUpperCase()}${currentClass.slice(
+                    1
+                  )}`
+                )
+              }
+              return details
+            },
+            { genres: [] }
+          )
 
         artistArray.push({
           name: `${artist.charAt(0).toUpperCase()}${artist.slice(1)}`,
@@ -52,7 +63,11 @@ const scrapePage = (requestPromise, urlOptions, stages, stageMap) => {
         )
         .sort((a, b) => (a.name > b.name ? 1 : -1))
         .forEach(artist =>
-          console.log(`"${artist.name}", "${artist.stage}", "${artist.day}"`)
+          console.log(
+            `"${artist.name}", "${artist.genres.join(', ')}", "${
+              artist.stage
+            }", "${artist.day}"`
+          )
         )
     })
     .catch(error => {
@@ -78,9 +93,19 @@ const stageMap = {
   'wwe-nxt': 'wwe-nxt'
 }
 
+const trash = [
+  'artist',
+  'day-all',
+  'featured-artists',
+  'genre-all',
+  'grid-item',
+  'name-all',
+  'stage-all'
+]
+
 const options = getOptions(
   cheerio,
   `https://downloadfestival.co.uk/artists-a-z/`
 )
 
-scrapePage(rp, options, stages, stageMap)
+scrapePage(rp, options, stages, stageMap, trash)
