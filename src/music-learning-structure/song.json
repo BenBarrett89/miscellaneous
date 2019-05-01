@@ -1,0 +1,103 @@
+{
+  "artists": [
+    "artist",
+    "featuring"
+  ],
+  "title": "song titles",
+  "release": "album/single/ep",
+  "genres": [
+    "rock",
+    "pop"
+  ],
+  "key": "C",
+  "tempo": 120,
+  "meter": {
+    "lower": 4,
+    "upper": 4
+  },
+  "tags": [
+    "movement:visual-kei",
+    "country:japan"
+  ],
+  "instrumentation": [
+    {
+      "instrument": "guitar",
+      "name": "Guitar I",
+      "player": "someone",
+      "tuning": [
+        "E4",
+        "B3",
+        "G3",
+        "D3",
+        "A2",
+        "E2"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "A",
+      "navigation": [
+        {
+          "location": "start",
+          "type": "segno"
+        },
+        {
+          "location": "end",
+          "type": "da coda"
+        }
+      ],
+      "meter": {
+        "lower": 4,
+        "upper": 4
+      },
+      "length": 8,
+      "repeats": [
+        {
+          "start": 1,
+          "end": 8,
+          "multiples": 1,
+          "endings": [
+            {
+              "number": 1,
+              "bar": 8
+            }
+          ]
+        }
+      ],
+      "progression": [
+        {
+          "bar": 1,
+          "beat": 1,
+          "chord": "Am"
+        },
+        {
+          "bar": 3,
+          "beat": 1,
+          "chord": "C"
+        },
+        {
+          "bar": 5,
+          "beat": 1,
+          "chord": "G"
+        },
+        {
+          "bar": 7,
+          "beat": 1,
+          "chord": "D"
+        }
+      ],
+      "instrumentation": [
+        {
+          "name": "Guitar I"
+        }
+      ],
+      "genres": [
+        "bossa nova"
+      ],
+      "tags": [
+        "melody:rising"
+      ]
+    }
+  ]
+}

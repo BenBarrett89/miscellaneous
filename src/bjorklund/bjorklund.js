@@ -6,7 +6,7 @@ const ZERO = '0'
 const createInitialArray = (ones, bits) => {
   let array = []
   for (var i = 0; i < ones; i++) array.push(ONE)
-  for (var j = 0; j < (bits - ones); j++) array.push(ZERO)
+  for (var j = 0; j < bits - ones; j++) array.push(ZERO)
   return array
 }
 
@@ -20,13 +20,10 @@ const calculateNumberOfRemainders = (array, remainder) => {
 }
 
 const isEndOfAlgorithm = (numberOfRemainders, numberOfSequences) => {
-  return (
-    numberOfSequences === 0 ||
-    numberOfRemainders <= 1
-  )
+  return numberOfSequences === 0 || numberOfRemainders <= 1
 }
 
-const recursivelyCalculate = (array) => {
+const recursivelyCalculate = array => {
   const remainder = array[array.length - 1]
   const numberOfRemainders = calculateNumberOfRemainders(array, remainder)
   const numberOfSequences = array.length - numberOfRemainders
@@ -37,13 +34,17 @@ const recursivelyCalculate = (array) => {
   } else {
     let newArray = []
     if (difference > 0) {
-      newArray = array.slice(0, numberOfSequences)
+      newArray = array
+        .slice(0, numberOfSequences)
         .map(sequence => sequence.concat(remainder))
       for (var i = 0; i < difference; i++) newArray.push(remainder)
     } else {
-      newArray = array.slice(0, numberOfRemainders)
+      newArray = array
+        .slice(0, numberOfRemainders)
         .map(sequence => sequence.concat(remainder))
-        .concat(array.slice(numberOfRemainders, array.length - numberOfRemainders))
+        .concat(
+          array.slice(numberOfRemainders, array.length - numberOfRemainders)
+        )
     }
     // console.log(`Array: ${newArray}`)
     return recursivelyCalculate(newArray)
@@ -58,7 +59,7 @@ const calculate = (ones, bits) => {
   return result
 }
 
-const split = (bjorklund) => {
+const split = bjorklund => {
   return bjorklund.reduce((array, sequence) => {
     return array.concat(sequence.split(''))
   }, [])
