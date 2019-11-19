@@ -1,0 +1,371 @@
+{
+  "gadgets": [
+    {
+      "name": "London",
+      "country": "GB",
+      "type": "Hypersonic PCM Drum Module",
+      "timbres": [],
+      "uses": [
+        "Drums"
+      ]
+    },
+    {
+      "name": "Marseille",
+      "country": "FR",
+      "type": "Polyphonic PCM Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Harmony"
+      ]
+    },
+    {
+      "name": "Berlin",
+      "country": "DE",
+      "type": "Monophonic Synchronized Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Melody"
+      ]
+    },
+    {
+      "name": "Chicago",
+      "country": "US",
+      "type": "Tube Bass Machine",
+      "timbres": [],
+      "uses": [
+        "Bass"
+      ]
+    },
+    {
+      "name": "Phoenix",
+      "country": "US",
+      "type": "Polyphonic Analogue Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Harmony"
+      ]
+    },
+    {
+      "name": "Miami",
+      "country": "US",
+      "type": "Monophonic Wobble Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Bass"
+      ]
+    },
+    {
+      "name": "Wolfsburg",
+      "country": "DE",
+      "type": "Hybrid Polyphonic Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Harmony",
+        "Melody"
+      ]
+    },
+    {
+      "name": "Tokyo",
+      "country": "JP",
+      "type": "Analog Percussion Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Drums"
+      ]
+    },
+    {
+      "name": "Dublin",
+      "country": "IE",
+      "type": "Monophonic Semi-Modular Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Bass"
+      ]
+    },
+    {
+      "name": "Amsterdam",
+      "country": "NL",
+      "type": "PCM SFX Boombox",
+      "timbres": [],
+      "uses": [
+        "SFX"
+      ]
+    },
+    {
+      "name": "Kiev",
+      "country": "UA",
+      "type": "Advanced Spatial Digital Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Harmony"
+      ]
+    },
+    {
+      "name": "Chiang Mai",
+      "country": "TH",
+      "type": "Variable Phase Modulation Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Harmony",
+        "SFX"
+      ]
+    },
+    {
+      "name": "Helsinki",
+      "country": "FI",
+      "type": "Polyphonic Ambient Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Harmony"
+      ]
+    },
+    {
+      "name": "Kingston",
+      "country": "JM",
+      "type": "Polyphonic Chip Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Drums",
+        "Bass"
+      ]
+    },
+    {
+      "name": "Recife",
+      "country": "BR",
+      "type": "Futuristic Drum Module",
+      "timbres": [],
+      "uses": [
+        "Drums"
+      ]
+    },
+    {
+      "name": "Bilbao",
+      "country": "ES",
+      "type": "Lightning Sample Player",
+      "timbres": [],
+      "uses": [
+        "Drums",
+        "SFX"
+      ]
+    },
+    {
+      "name": "Abu Dhabi",
+      "country": "AE",
+      "type": "Dynamic Loop Slicer",
+      "timbres": [],
+      "uses": []
+    },
+    {
+      "name": "Kamata",
+      "country": "JP",
+      "type": "Wave Table Synthesizer",
+      "clones": "NAMCO CUSTOM30",
+      "timbres": [],
+      "uses": [
+        "Drums",
+        "Harmony",
+        "Melody"
+      ]
+    },
+    {
+      "name": "Gladstone",
+      "country": "AU",
+      "type": "Acoustic Drum Module",
+      "timbres": [],
+      "uses": [
+        "Drums"
+      ]
+    },
+    {
+      "name": "Madrid",
+      "country": "ES",
+      "type": "Dynamic Bass Machine",
+      "timbres": [],
+      "uses": [
+        "Bass"
+      ]
+    },
+    {
+      "name": "Vancouver",
+      "country": "CA",
+      "type": "Layering Melody Sampler",
+      "timbres": [],
+      "uses": [
+        "Melody"
+      ]
+    },
+    {
+      "name": "Lisbon",
+      "country": "PT",
+      "type": "Polyphonic Sci-Fi Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Melody",
+        "Harmony",
+        "SFX"
+      ]
+    },
+    {
+      "name": "Stockholm by Reason",
+      "country": "SE",
+      "type": "Octo-Sample Loop Player",
+      "clones": "Dr. Octo Rex Loop Player from Propellerhead Software’s Reason",
+      "timbres": [],
+      "uses": [
+        "Melody",
+        "Harmony",
+        "SFX",
+        "Drums"
+      ]
+    },
+    {
+      "name": "Salzburg",
+      "country": "AT",
+      "type": "Premium Acoustic Piano",
+      "timbres": [],
+      "uses": [
+        "Melody",
+        "Harmony"
+      ]
+    },
+    {
+      "name": "Montreal",
+      "country": "CA",
+      "type": "Vintage Electric Piano",
+      "timbres": [],
+      "uses": [
+        "Melody",
+        "Harmony"
+      ]
+    },
+    {
+      "name": "Alexandria",
+      "country": "EG",
+      "type": "Legendary Vintage Organ",
+      "timbres": [],
+      "uses": [
+        "Harmony"
+      ]
+    },
+    {
+      "name": "Firenze",
+      "country": "IT",
+      "type": "Funky Electric Keyboard",
+      "timbres": [],
+      "uses": [
+        "Harmony"
+      ]
+    },
+    {
+      "name": "Glasgow",
+      "country": "GB",
+      "type": "Superior PCM Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Harmony",
+        "Melody"
+      ]
+    },
+    {
+      "name": "Darwin",
+      "country": "GB",
+      "clones": "KORG iM1",
+      "type": "Digital PCM Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Harmony",
+        "Melody"
+      ]
+    },
+    {
+      "name": "Lexington",
+      "country": "GB",
+      "clones": "ARP ODYSSEY",
+      "type": "Duophonic Analogue Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Harmony",
+        "Melody"
+      ]
+    },
+    {
+      "name": "Milpitas",
+      "country": "US",
+      "clones": "KORG WAVESTATION",
+      "type": "Wave Sequence Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Harmony",
+        "Melody"
+      ]
+    },
+    {
+      "name": "Montpellier",
+      "country": "FR",
+      "clones": "KORG Mono/Poly",
+      "type": "4VCO Analogue Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Harmony",
+        "Melody"
+      ]
+    },
+    {
+      "name": "Memphis",
+      "country": "US",
+      "clones": "KORG MS-20",
+      "type": "Semi-Modular Analogue Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Harmony",
+        "Melody"
+      ]
+    },
+    {
+      "name": "Pompei",
+      "country": "IT",
+      "clones": "KORG Polysix",
+      "type": "6Voices Analogue Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Harmony",
+        "Melody"
+      ]
+    },
+    {
+      "name": "Otorii",
+      "country": "JP",
+      "clones": "SEGA game sounds",
+      "type": "SEGA 16-bit DRUM MACHINE",
+      "timbres": [],
+      "uses": [
+        "Drums",
+        "SFX"
+      ]
+    },
+    {
+      "name": "Ebina",
+      "country": "JP",
+      "clones": "TAITO game sounds",
+      "type": "TAITO ARCADE SYNTHESIZER",
+      "timbres": [],
+      "uses": [
+        "Melody",
+        "Harmony",
+        "Drums",
+        "SFX"
+      ]
+    },
+    {
+      "name": "Warszawa",
+      "country": "PL",
+      "clones": "KORG ELECTRIBE Wave",
+      "type": "Sophisticated Wavetable Synthesizer",
+      "timbres": [],
+      "uses": [
+        "Melody",
+        "Harmony"
+      ]
+    }
+  ]
+}
