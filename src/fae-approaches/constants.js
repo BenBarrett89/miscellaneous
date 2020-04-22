@@ -3,6 +3,7 @@ module.exports = {
   file: {
     name: {
       approaches: 'permutations-by-approach',
+      combinations: 'combinations-by-approach',
       values: 'permutations-by-value'
     },
     extension: '.txt'

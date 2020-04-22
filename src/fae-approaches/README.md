@@ -15,9 +15,9 @@ The six [Approaches](https://github.com/ChristopherA/FAE-SRD/blob/master/Fate-Ac
 
 For each of these, one will be rated Good (+3), two will be Fair (+2), two will be Average (+1), and one will be Mediocre (+0).
 
-This codebase calculates all 720 permutations for these values and provides functions for selecting a random combination.
+This codebase calculates all 720 permutations for these values and provides functions for selecting a random combination. There are actually only 180 distinct combinations however and these are calculated too.
 
-## Generating all permutations
+## Generating all permutations and combinations
 
 These files are checked in, but all permutations can be enumerated and written to files with:
 
@@ -25,14 +25,15 @@ These files are checked in, but all permutations can be enumerated and written t
 node findAll.js
 ```
 
-Two files are written;
+Three files are written;
 
+- [`combinations-by-approach`](./combinations-by-approach.txt) - the approach order is static and the values are permuted (and not duplicated)
 - [`permutations-by-approach`](./permutations-by-approach.txt) - the approach order is static and the values are permuted
 - [`permutations-by-value`](./permutations-by-value.txt) - the value order is static and the approaches are permuted
 
 ## Getting a random combination
 
-Two options are given for selecting a random combination, depending on whether the output should keep the approach order or value order static.
+Three options are given for selecting a random combination, depending on whether the output should keep the approach order or value order static.
 
 ### By Approach
 
@@ -45,6 +46,12 @@ Produces a random combination in which the approach order is static and the valu
 e.g
 
 > Careful +3 Clever +0 Flashy +1 Forceful +1 Quick +2 Sneaky +2
+
+Or, to select from the 180 distinct **combinations** (recommended):
+
+```console
+node getRandom.js
+```
 
 ### By Value
 

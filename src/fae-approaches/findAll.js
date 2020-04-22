@@ -3,8 +3,22 @@ const path = require('path')
 
 const constants = require('./constants')
 
+const getCombinationsByApproach = require('./getCombinationsByApproach')
 const getPermutationsByApproach = require('./getPermutationsByApproach')
 const getPermutationsByValue = require('./getPermutationsByValue')
+
+const combinationsByApproach = getCombinationsByApproach().join('\n')
+
+fs.writeFileSync(
+  path.join(
+    __dirname,
+    `${constants.file.name.combinations}${constants.file.extension}`
+  ),
+  combinationsByApproach,
+  {
+    encoding: 'utf-8'
+  }
+)
 
 const permutationsByApproach = getPermutationsByApproach().join('\n')
 
