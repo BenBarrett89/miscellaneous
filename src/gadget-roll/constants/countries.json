@@ -114,6 +114,31 @@
       "name": "Poland",
       "flag": "🇵🇱",
       "code": "PL"
+    },
+    {
+      "name": "Belgium",
+      "flag": "🇧🇪",
+      "code": "BE"
+    },
+    {
+      "name": "Switzerland",
+      "flag": "🇨🇭",
+      "code": "CH"
+    },
+    {
+      "name": "Argentina",
+      "flag": "🇦🇷",
+      "code": "AR"
+    },
+    {
+      "name": "South Africa",
+      "flag": "🇿🇦",
+      "code": "ZA"
+    },
+    {
+      "name": "United Nations",
+      "flag": "🇺🇳",
+      "code": "UN"
     }
   ]
 }

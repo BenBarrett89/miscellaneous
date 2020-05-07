@@ -5,155 +5,168 @@
       "country": "GB",
       "type": "Hypersonic PCM Drum Module",
       "timbres": [],
-      "uses": [
-        "Drums"
-      ]
+      "uses": ["Drums"],
+      "description": "This is a drum sound module Gadget designed specifically for dance music. True to its simple, straightforward looks, it instantly gives you a performance-ready drum kit. There are more than 400 samples that will cover your needs for a variety of dance music formats including Electro, Minimal, Dubstep and so on. It also provides three effects that you can use on each part, as well as a master effect."
     },
     {
       "name": "Marseille",
       "country": "FR",
       "type": "Polyphonic PCM Synthesizer",
       "timbres": [],
-      "uses": [
-        "Harmony"
-      ]
+      "uses": ["Harmony"],
+      "description": "With its workstation-like looks, this polyphonic synthesizer gadget offers a broad selection of standard keyboard sounds, brass, strings, and synth sounds. When you need a piano or electric piano, this Gadget will deliver. There's a \"Chord\" function that lets you produce chords of the scale you specify, making it simple to create a chord progression with no wrong notes."
     },
     {
       "name": "Berlin",
       "country": "DE",
       "type": "Monophonic Synchronized Synthesizer",
       "timbres": [],
-      "uses": [
-        "Melody"
-      ]
+      "uses": ["Melody"],
+      "description": "This is a synthesizer Gadget with a classical design that's optimized for lead sounds. It provides a sync oscillator that can generate complex overtones, delivering diverse sounds with a sense of modulation."
     },
     {
       "name": "Chicago",
       "country": "US",
       "type": "Tube Bass Machine",
       "timbres": [],
-      "uses": [
-        "Bass"
-      ]
+      "uses": ["Bass"],
+      "description": "This is a straightforward acid house bass Gadget with a shiny silver metal body. It features a \"Bite\" filter that covers the range from classic, \"sticky-sounding\" synth bass to intensely distorted aggressive sounds. There's a built-in arpeggiator and multi-effect, so your creations will have plenty of variety."
     },
     {
       "name": "Phoenix",
       "country": "US",
       "type": "Polyphonic Analogue Synthesizer",
       "timbres": [],
-      "uses": [
-        "Harmony"
-      ]
+      "uses": ["Harmony"],
+      "description": "This polyphonic synthesizer Gadget offers classic, vintage design and sound. Its painstaking analog emulation provides analog sound with warmth and presence. This is an all-around synth that you can use for chordal backing, pad sounds, or anything else."
     },
     {
       "name": "Miami",
       "country": "US",
       "type": "Monophonic Wobble Synthesizer",
       "timbres": [],
-      "uses": [
-        "Bass"
-      ]
+      "uses": ["Bass"],
+      "description": "This Gadget provides the types of bass sounds that are indispensable for today's electronic music. It features an \"X-MOD\" oscillator that generates complex overtones and modulation, and a \"CRUSH\" filter that adds distinctive noise. \"WOBBLE\" modulation lets you shift the character to produce a wobble sound evocative of an evil monster, often heard in Dubstep."
     },
     {
       "name": "Wolfsburg",
       "country": "DE",
       "type": "Hybrid Polyphonic Synthesizer",
       "timbres": [],
-      "uses": [
-        "Harmony",
-        "Melody"
-      ]
+      "uses": ["Harmony", "Melody"],
+      "description": "This Gadget is a collection of distinctive analog synthesizer waveforms that have been resampled using digital technology. It provides two effect units and four modulation matrix systems, and is distinctive for a dynamic and powerful sound that matches its tasteful, black-themed panel layout."
+    },
+    {
+      "name": "Brussels",
+      "country": "BE",
+      "type": "Monophonic Anthem Synthesizer",
+      "timbres": [],
+      "uses": ["Melody"],
+      "description": "This synthesizer Gadget has a simple and carefully considered parameter structure with an intuitive user interface. The thick unison tones that emanate from this futuristic design will give you the lead sounds that you need for any type of electronic music."
     },
     {
       "name": "Tokyo",
       "country": "JP",
       "type": "Analog Percussion Synthesizer",
       "timbres": [],
-      "uses": [
-        "Drums"
-      ]
+      "uses": ["Drums"],
+      "description": "This is a drum Gadget that collects four compact analog-type drum sound modules into a single package. Each module gives you parameters that are tuned respectively to kick, snare, tom and percussion sounds, allowing you to experience the distinctive enjoyment of creating sound with analog modules."
     },
     {
       "name": "Dublin",
       "country": "IE",
       "type": "Monophonic Semi-Modular Synthesizer",
       "timbres": [],
-      "uses": [
-        "Bass"
-      ]
+      "uses": ["Bass"],
+      "description": "This is a semi-modular synthesizer Gadget with classic, vintage looks. It's especially good for deep bass sounds. In addition to being capable of straightforward yet deep subtractive synthesis with a plain waveform and filter, it also lets you enjoy a wide range of varying tones by changing the patching."
     },
     {
       "name": "Amsterdam",
       "country": "NL",
       "type": "PCM SFX Boombox",
       "timbres": [],
-      "uses": [
-        "SFX"
-      ]
+      "uses": ["SFX"],
+      "description": "With the beefy looks of a gold body sporting chrome knobs, this is a four-part PCM sound module gadget containing more than one hundred sound effects that give impact to your song, including one-shot sounds, synth sounds, and scratches. It also contains numerous chord samples, allowing you to create chord progressions as if you were assembling a collage."
     },
     {
       "name": "Kiev",
       "country": "UA",
       "type": "Advanced Spatial Digital Synthesizer",
       "timbres": [],
-      "uses": [
-        "Harmony"
-      ]
+      "uses": ["Harmony"],
+      "description": "The yellow body of this synthesizer Gadget projects the impression of a secret weapon hidden in an industrial zone. It features \"vector synthesis\" using four oscillators that generate organic, spacey sounds. Use the touchpad to intuitively control the mysterious \"warp\" sound that seems to contort space itself."
     },
     {
       "name": "Chiang Mai",
       "country": "TH",
       "type": "Variable Phase Modulation Synthesizer",
       "timbres": [],
-      "uses": [
-        "Harmony",
-        "SFX"
-      ]
+      "uses": ["Harmony", "SFX"],
+      "description": "This is a polyphonic synthesizer Gadget that features VPM (Variable Phase Modulation) synthesis. With a subdued gold body, this gadget is particularly good at sparkling metallic bell sounds."
     },
     {
       "name": "Helsinki",
       "country": "FI",
       "type": "Polyphonic Ambient Synthesizer",
       "timbres": [],
-      "uses": [
-        "Harmony"
-      ]
+      "uses": ["Harmony"],
+      "description": "This is a pad sound Gadget that's easy to use for genres such as Ambient or Chillwave. The subtle yet deep sound played through lo-fi and reverb effects, conveyed through the floating interface, creates an atmosphere that is both nostalgic and futuristic."
     },
     {
       "name": "Kingston",
       "country": "JM",
       "type": "Polyphonic Chip Synthesizer",
       "timbres": [],
-      "uses": [
-        "Drums",
-        "Bass"
-      ]
+      "uses": ["Drums", "Bass"],
+      "description": "This polyphonic synthesizer Gadget is optimized for 8-bit or “chip tune” sounds. The timeless waveforms that still exemplify the sounds of a computer are provided in the oscillator section, and there are also \"JUMP\" and \"RUN\" functions that make those sounds even more bizarre. You can also use effects to additionally modulate the sound."
+    },
+    {
+      "name": "Zurich",
+      "country": "DE",
+      "type": "Universal Audio Recorder",
+      "timbres": [],
+      "uses": [],
+      "description": "This is a universal audio gadget designed like a vintage tape recorder, but with a stylish modern appearance which everyone will love. You can import audio files and record vocals, acoustic guitar or other acoustic instruments into your audio track for easy replay. It features 26 different effects including compressor, EQ, filters, and reverb. It's the all-around useful solution for your audio recordings."
+    },
+    {
+      "name": "Rosario",
+      "country": "AR",
+      "type": "Guitar Effect Processor",
+      "timbres": [],
+      "uses": [],
+      "description": "This immensely inspiring guitar amp Gadget gives you the unmistakable depth and atmosphere of a guitar amp. Connect it to your iPhone, iPad, or Mac and you can riff, perform, and record to your heart's content. Offers 30 different presets faithfully modeled using 19 different amps ranging from vintage to modern high-gain, 12 different cabinets, and 24 different effects pedals."
+    },
+    {
+      "name": "Durban",
+      "country": "ZA",
+      "type": "Bass Effect Processor",
+      "timbres": [],
+      "uses": [],
+      "description": "This bass amp gadget supports the foundation of your track. Connect an electric bass to your iPhone, iPad, or Mac and you can play with 8 different bass amp models, 12 cabinets, and 2 x 26 stomp effects to shape your bass tone in real time. Just like Zurich and Rosario, you can import your own audio files and use Durban as an effect processor."
     },
     {
       "name": "Recife",
       "country": "BR",
       "type": "Futuristic Drum Module",
       "timbres": [],
-      "uses": [
-        "Drums"
-      ]
+      "uses": ["Drums"],
+      "description": "This retro-futurist drum gadget provides 16 pads and incredible sounds to satisfy your beat-making needs. Create powerful sounds at will with our meticulously crafted vintage rhythm machine, which features acoustic drums, sound effects, and different beats. Provides 30 different kits that are battle-ready for a broad array of genres."
     },
     {
       "name": "Bilbao",
       "country": "ES",
       "type": "Lightning Sample Player",
       "timbres": [],
-      "uses": [
-        "Drums",
-        "SFX"
-      ]
+      "uses": ["Drums", "SFX"],
+      "description": "The beats you need right now are generated at lightning speed. This is a one-shot sampler gadget with 16 parts. Numerous beats redolent with lo-fi feel are built in, expanding the range of the \"London\" drum sound module gadget. In addition, you can freely import your own samples to limitlessly expand your sound set."
     },
     {
       "name": "Abu Dhabi",
       "country": "AE",
       "type": "Dynamic Loop Slicer",
       "timbres": [],
-      "uses": []
+      "uses": ["Drums"],
+      "description": "Instantly and automatically slice loop samples. This is a futuristic-looking sampler gadget that lets you freely manipulate grooves. Carefully selected electro drum and chord sequences are provided, and you can instantly transform them into other-dimensional sounds with a single-stroke gesture. You can also freely import your own favorite samples for unlimited possibilities."
     },
     {
       "name": "Kamata",
@@ -161,49 +174,40 @@
       "type": "Wave Table Synthesizer",
       "clones": "NAMCO CUSTOM30",
       "timbres": [],
-      "uses": [
-        "Drums",
-        "Harmony",
-        "Melody"
-      ]
+      "uses": ["Drums", "Harmony", "Melody"],
+      "description": "This synthesizer gadget emulates 80s video games by using Wavetable synthesis as a sound source. Based on the NAMCO CUSTOM30 sound generator in their world famous 1980’s arcade games, the sound team of Bandai Namco Studios have reimagined the most popular game sounds and put them into a dedicated Gadget called Kamata. By using the carefully selected parameters for each of the 32 x 4-bit samples in the wavetable, you can design music and sounds that are both nostalgic and new."
     },
     {
       "name": "Gladstone",
       "country": "AU",
       "type": "Acoustic Drum Module",
       "timbres": [],
-      "uses": [
-        "Drums"
-      ]
+      "uses": ["Drums"],
+      "description": "Gladstone is a powerful acoustic drum Gadget that will complement the sound of most styles of music regardless of genre. Equipped with 20 high quality drum kits, Gladstone enables you to compose a wide variety of drum parts. In addition to master effects, it creates an ambience and feel that suit the mood of the song, allowing you to quickly produce the drum sounds and patterns you're looking for."
     },
     {
       "name": "Madrid",
       "country": "ES",
       "type": "Dynamic Bass Machine",
       "timbres": [],
-      "uses": [
-        "Bass"
-      ]
+      "uses": ["Bass"],
+      "description": "Madrid is a powerful bass gadget that will add a lively groove to your music. Featuring acoustic bass, electric bass, six types of bass amp and two groups of built-in effects, you can change the sound character easily and substantially. From a strong, aggressive bass to a thick, plump bass, this gadget not only delivers powerful low tone but also realistically reproduce differences in most playing styles."
     },
     {
       "name": "Vancouver",
       "country": "CA",
       "type": "Layering Melody Sampler",
       "timbres": [],
-      "uses": [
-        "Melody"
-      ]
+      "uses": ["Melody"],
+      "description": "You can create an infinite number of sounds with this simple sampler gadget, which allows you to play preloaded sounds with ease using the keyboard. With a retro look and more than 90 unique sounds including acoustic instruments, synthesizers, voice and sound effects. In addition to the preset timbres you can also import your own sounds to two sample oscillators."
     },
     {
       "name": "Lisbon",
       "country": "PT",
       "type": "Polyphonic Sci-Fi Synthesizer",
       "timbres": [],
-      "uses": [
-        "Melody",
-        "Harmony",
-        "SFX"
-      ]
+      "uses": ["Melody", "Harmony", "SFX"],
+      "description": "A polyphonic synthesizer gadget that produces a thick, glossy, futuristic sound, indispensable for electronic music. With KORG's electronic circuit modelling technology and a powerful synthesizer engine with five different effects, you can instantly create great sound regardless of music genre and style."
     },
     {
       "name": "Stockholm by Reason",
@@ -211,82 +215,66 @@
       "type": "Octo-Sample Loop Player",
       "clones": "Dr. Octo Rex Loop Player from Propellerhead Software’s Reason",
       "timbres": [],
-      "uses": [
-        "Melody",
-        "Harmony",
-        "SFX",
-        "Drums"
-      ]
+      "uses": ["Melody", "Harmony", "SFX", "Drums"],
+      "description": "Stockholm by Reason is a gadgetized version of Dr. Octo Rex Loop Player from Propellerhead Software’s Reason, which allows you to load a total of 8 Rex files and switch between them in real-time. You can make arrangements by simply loading multiple drum or guitar loops into the player and freely switching between them. It is also possible to create new beats by triggering slices in any way you like."
     },
     {
       "name": "Salzburg",
       "country": "AT",
       "type": "Premium Acoustic Piano",
       "timbres": [],
-      "uses": [
-        "Melody",
-        "Harmony"
-      ]
+      "uses": ["Melody", "Harmony"],
+      "description": "This is a premium acoustic piano gadget containing un-looped samples recorded from world-renowned grand pianos. Changes in your playing dynamics will vary between multiple sample levels, reproducing subtle changes in velocity and giving the sound a rich dynamic range. This also reproduces the sympathetic resonance of the open strings when the damper pedal is pressed. Since it includes sounds such as upright piano and electric grand piano, as well as variations that add pads or strings, you'll enjoy a variety of high-quality sounds."
     },
     {
       "name": "Montreal",
       "country": "CA",
       "type": "Vintage Electric Piano",
       "timbres": [],
-      "uses": [
-        "Melody",
-        "Harmony"
-      ]
+      "uses": ["Melody", "Harmony"],
+      "description": "This is an electric piano gadget that reproduces a vintage electric piano, distinctive for its unforgettably sweet sound. Multiple velocity layers are provided, ensuring a realistic sound over the full range of soft to strong notes. Also provided are the EQ and tremolo that are indispensable for creating the electric pianos you know and love (and more!), as well as a drive circuit that's ideal for funky sounds. Immerse yourself in the delicate sound of this gadget."
     },
     {
       "name": "Alexandria",
       "country": "EG",
       "type": "Legendary Vintage Organ",
       "timbres": [],
-      "uses": [
-        "Harmony"
-      ]
+      "uses": ["Harmony"],
+      "description": "This is a powerful organ gadget that samples a variety of sounds from a traditional classic organ. With an impressive rotary speaker, vibrato and chorus sounds, and an overdrive circuit that adds warm distortion, it's easy to produce realistic organ sounds."
     },
     {
       "name": "Firenze",
       "country": "IT",
       "type": "Funky Electric Keyboard",
       "timbres": [],
-      "uses": [
-        "Harmony"
-      ]
+      "uses": ["Harmony"],
+      "description": "This is a Clav gadget that reproduces a classic instrument noted for its percussive sound and strong beat. The pickup and filter can be controlled with separate switches, making it easy to experiment with changes in the sound. Other carefully selected parameters indispensable for the Clav include a Mute slider that adjusts the decay."
     },
     {
       "name": "Glasgow",
       "country": "GB",
       "type": "Superior PCM Synthesizer",
       "timbres": [],
-      "uses": [
-        "Harmony",
-        "Melody"
-      ]
+      "uses": ["Harmony", "Melody"],
+      "description": "This gadget can produce a wide variety of sounds including strings, brass, and synth. It features crisp, high-quality sounds. The parameters most suitable for editing are switched for each sound, allowing you to decide on the tone you want."
     },
     {
       "name": "Darwin",
-      "country": "GB",
+      "country": "UN",
       "clones": "KORG iM1",
       "type": "Digital PCM Synthesizer",
       "timbres": [],
-      "uses": [
-        "Harmony",
-        "Melody"
-      ]
+      "uses": ["Harmony", "Melody"],
+      "description": "This is a digital PCM synthesizer gadget powered by the KORG iM1 app. It has special sounds that could only be produced by the legendary M1 Music Workstation, the instrument that defined an era. There is an enormous library of sound programs that will cover your needs for a huge variety of music genres. Functions like \"Smart Sound Browser\" and \"Easy Edit\" make it easy to search and make fine adjustments to the sound."
     },
     {
       "name": "Lexington",
-      "country": "GB",
+      "country": "US",
       "clones": "ARP ODYSSEY",
       "type": "Duophonic Analogue Synthesizer",
       "timbres": [],
-      "uses": [
-        "Harmony",
-        "Melody"
-      ]
+      "uses": ["Harmony", "Melody"],
+      "description": "The legendary analog synthesizer, ARP ODYSSEY is now available as a Gadget. Its main characteristics are 3 different filters originating from the different dates of production, and a sharp, edgy sound that comes from the drive circuitry. Furthermore, through use of the 6 powerful effects, it's not just a faithful reproduction, a whole variety of evolved sounds are possible."
     },
     {
       "name": "Milpitas",
@@ -294,10 +282,8 @@
       "clones": "KORG WAVESTATION",
       "type": "Wave Sequence Synthesizer",
       "timbres": [],
-      "uses": [
-        "Harmony",
-        "Melody"
-      ]
+      "uses": ["Harmony", "Melody"],
+      "description": "The Wave Sequence Synthesizer, the new WAVESTATION Gadget, has the ability to create sounds by combined or shifting between multiple complex waveforms. Equipped with joystick-operated mix/morphing functions and the new graphically enhanced Wave Sequence View, it allows you to intuitively control an unprecedented variety of sounds."
     },
     {
       "name": "Montpellier",
@@ -305,10 +291,8 @@
       "clones": "KORG Mono/Poly",
       "type": "4VCO Analogue Synthesizer",
       "timbres": [],
-      "uses": [
-        "Harmony",
-        "Melody"
-      ]
+      "uses": ["Harmony", "Melody"],
+      "description": "A legend amongst synthesizers and KORG’s analog synth family, the \"Mono/Poly\" has been Gadgetized. In addition to 4VCO, Montpellier has 2 multi effects and 8 patches storing settings for 159 different modulation sources affecting 35 different destinations. Montpellier has the power of “Mono/Poly” in a Gadget that will generate a broad pallet of rich analog sounds easily and with complete control."
     },
     {
       "name": "Memphis",
@@ -316,10 +300,8 @@
       "clones": "KORG MS-20",
       "type": "Semi-Modular Analogue Synthesizer",
       "timbres": [],
-      "uses": [
-        "Harmony",
-        "Melody"
-      ]
+      "uses": ["Harmony", "Melody"],
+      "description": "The legendary KORG MS-20 has been Gadgetized. Memphis completely reproduces the MS-20 with its two oscillators (which can be ring-modulated), high-pass/low-pass self-oscillating filters with unique distortion, and a patch section with an external signal processor that can accommodate external audio input."
     },
     {
       "name": "Pompei",
@@ -327,10 +309,8 @@
       "clones": "KORG Polysix",
       "type": "6Voices Analogue Synthesizer",
       "timbres": [],
-      "uses": [
-        "Harmony",
-        "Melody"
-      ]
+      "uses": ["Bass", "Harmony", "Melody"],
+      "description": "The world-wide best-selling polyphonic KORG Polysix synthesizer has been Gadgetized. Pompei completely reproduces the Polysix with its single VCO (with sub-oscillator) /1VCF/1VCA/1EG configuration which enables a choice of SAW/PW/PWM waveforms, the chorus/phase/ensemble effects, and performance functions such as chord memory, arpeggiator, and unison."
     },
     {
       "name": "Otorii",
@@ -338,10 +318,8 @@
       "clones": "SEGA game sounds",
       "type": "SEGA 16-bit DRUM MACHINE",
       "timbres": [],
-      "uses": [
-        "Drums",
-        "SFX"
-      ]
+      "uses": ["Drums", "SFX"],
+      "description": "We are proud to announce our collaboration with Sega. With a focus on games like OutRun and After Burner that achieved popularity in the 80’s, we have sampled original equipment to create a library of drum sounds and SFX. From the logo to the interface design, this distinctive rhythm gadget is a nostalgic homage to the Genesis."
     },
     {
       "name": "Ebina",
@@ -349,12 +327,8 @@
       "clones": "TAITO game sounds",
       "type": "TAITO ARCADE SYNTHESIZER",
       "timbres": [],
-      "uses": [
-        "Melody",
-        "Harmony",
-        "Drums",
-        "SFX"
-      ]
+      "uses": ["Melody", "Harmony", "Drums", "SFX"],
+      "description": "This is a synth gadget inspired by the Darius arcade cabinet and its distinctive three-screen design. Synth sounds have been recorded from arcade games such as Darius and The Ninja Warriors. Through collaboration with Taito, we reproduced FM tone generator sounds as closely as possible, successfully reproducing sounds of these legendary arcade games."
     },
     {
       "name": "Warszawa",
@@ -362,10 +336,8 @@
       "clones": "KORG ELECTRIBE Wave",
       "type": "Sophisticated Wavetable Synthesizer",
       "timbres": [],
-      "uses": [
-        "Melody",
-        "Harmony"
-      ]
+      "uses": ["Melody", "Harmony"],
+      "description": "The Sophisticated Wavetable Synthesizer \"ELECTRIBE Wave\", capable of creating innovative and cutting-edge sounds, has been Gadgetized. Unlike a PCM synth, a wavetable synthesizer allows you to repeatedly play fragments of short waveforms and change the waveform position during playback. By combining a wavetable oscillator with a powerful filter and two modulation units, you can create a variety of sounds."
     }
   ]
 }
