@@ -155,6 +155,7 @@ Ableton Audio Effects:
 - [Chorus](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-7-chorus)
 - [Flanger](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-19-flanger)
 - [Phaser](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-29-phaser)
+- [Auto Pan](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-3-auto-pan)
 - [Resonators](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-31-resonators)
 - [Delay](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-10-delay)
 - [Echo](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-13-echo)
