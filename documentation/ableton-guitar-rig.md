@@ -52,7 +52,7 @@ Ableton Audio Effects:
 
 Ableton Audio Effects:
 
-- [Utility](ableton.com/en/manual/live-audio-effect-reference/#22-36-utility)
+- [Utility](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-36-utility)
 - [Dynamic Tube](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-12-dynamic-tube)
 - [Saturator](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-33-saturator)
 - [EQ Eight](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-14-eq-eight)
@@ -93,7 +93,7 @@ Ableton Audio Effects:
 
 - [Auto Filter](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-2-auto-filter)
 - [EQ Eight](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-14-eq-eight)
-- [Utility](ableton.com/en/manual/live-audio-effect-reference/#22-36-utility)
+- [Utility](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-36-utility)
 - [Dynamic Tube](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-12-dynamic-tube)
 - [Saturator](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-33-saturator)
 
@@ -160,7 +160,7 @@ Ableton Audio Effects:
 - [Echo](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-13-echo)
 - [Filter Delay](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-18-filter-delay)
 - [Grain Delay](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-23-grain-delay)
-- [Utility](ableton.com/en/manual/live-audio-effect-reference/#22-36-utility)
+- [Utility](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-36-utility)
 
 ### Volume
 
@@ -168,7 +168,7 @@ Ableton Audio Effects:
 
 Ableton Audio Effects:
 
-- [Utility](ableton.com/en/manual/live-audio-effect-reference/#22-36-utility)
+- [Utility](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-36-utility)
 
 ### Delay / Echo
 
