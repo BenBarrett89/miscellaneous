@@ -59,6 +59,10 @@ Ableton Audio Effects:
 - [EQ Three](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-15-eq-three)
 - [Channel EQ](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-6-channel-eq)
 
+Pack Audio Effects:
+
+- [Stray Cats Collection: Color](https://www.ableton.com/en/packs/stray-cats-collection/#?item_type=free)
+
 ### Envelope Filter (Auto Wah)
 
 > Filter effects boost or weaken specific frequency regions of the guitar signal. Envelope filters have a similar sound to wah pedals, however they are activated by volume (the hardness of picking attack) rather than a foot pedal. Because of this they should be placed before any compressors in the effects chain.
@@ -66,6 +70,10 @@ Ableton Audio Effects:
 Ableton Audio Effects:
 
 - [Auto Filter](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-2-auto-filter)
+
+Max For Live Audio Effects:
+
+- [Envelope Follower](https://www.ableton.com/en/manual/max-for-live-devices/#26-2-1-envelope-follower)
 
 ### Octaver
 
@@ -84,6 +92,16 @@ Ableton Audio Effects:
 
 - [Frequency Shifter](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-20-frequency-shifter)
 - [Resonators](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-31-resonators)
+
+Pack Audio Effects:
+
+- [Max 7 Pitch and Time Machines: Simple Pitch Shifter](https://www.ableton.com/en/packs/max-7-pitch-and-time-machines/#?item_type=free)
+- [Max 7 Pitch and Time Machines: Pitch&Vibrato](https://www.ableton.com/en/packs/max-7-pitch-and-time-machines/#?item_type=free)
+- [Max 7 Pitch and Time Machines: Pitch&Echo](https://www.ableton.com/en/packs/max-7-pitch-and-time-machines/#?item_type=free)
+- [Max 7 Pitch and Time Machines: Dual Harmonizer](https://www.ableton.com/en/packs/max-7-pitch-and-time-machines/#?item_type=free)
+- [Max 7 Pitch and Time Machines: Multi Harmonizer](https://www.ableton.com/en/packs/max-7-pitch-and-time-machines/#?item_type=free)
+- [Creative Extensions: Pitch Hack](https://www.ableton.com/en/packs/creative-extensions/#?item_type=max_for_live)
+- [Max For Live Essentials: Pitch Drop](https://www.ableton.com/en/packs/max-live-essentials/#?item_type=max_for_live)
 
 ### Wah
 
@@ -109,6 +127,11 @@ Ableton Audio Effects:
 - [Glue Compressor](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-22-glue-compressor)
 - [Limiter](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-24-limiter)
 
+Pack Audio Effects:
+
+- [Creative Extensions: Color Limiter](https://www.ableton.com/en/packs/creative-extensions/#?item_type=max_for_live)
+- [Creative Extensions: Re-Enveloper](https://www.ableton.com/en/packs/creative-extensions/#?item_type=max_for_live)
+
 ### Overdrive - Distortion - Fuzz
 
 > Distortion, overdrive, gain, and fuzz pedals create a warm, gritty sound by clipping the guitar’s audio signal and adding overtones. Distortion and fuzz effects produce the same amount of distortion at any volume while overdrive and gain effects are produce “clean” sounds at quieter volumes and distorted sounds at louder volumes mimicking the effect of a tube amp.
@@ -125,6 +148,10 @@ Ableton Audio Effects:
 - [EQ Eight](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-14-eq-eight)
 - [EQ Three](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-15-eq-three)
 - [Channel EQ](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-6-channel-eq)
+
+Pack Audio Effects:
+
+- [Stray Cats Collection: Color](https://www.ableton.com/en/packs/stray-cats-collection/#?item_type=free)
 
 ### EQ
 
@@ -163,6 +190,10 @@ Ableton Audio Effects:
 - [Grain Delay](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-23-grain-delay)
 - [Utility](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-36-utility)
 
+Pack Audio Effects:
+
+- [Creative Extensions: Pitch Hack](https://www.ableton.com/en/packs/creative-extensions/#?item_type=max_for_live)
+
 ### Volume
 
 > Another dynamic effect is the volume pedal which would be placed near the end of the effects chain. Most models offer a minimum volume setting for the effect. In the heel down position volume would be set to this user defined lower setting, in the toe down position it would return to full volume.
@@ -182,6 +213,13 @@ Ableton Audio Effects:
 - [Filter Delay](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-18-filter-delay)
 - [Grain Delay](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-23-grain-delay)
 
+Pack Audio Effects:
+
+- [Stray Cats Collection: Stochastic Delay](https://www.ableton.com/en/packs/stray-cats-collection/#?item_type=free)
+- [Stray Cats Collection: Skram Delay](https://www.ableton.com/en/packs/stray-cats-collection/#?item_type=free)
+- [Creative Extensions: Pitch Hack](https://www.ableton.com/en/packs/creative-extensions/#?item_type=max_for_live)
+- [Creative Extensions: Gated Delay](https://www.ableton.com/en/packs/creative-extensions/#?item_type=max_for_live)
+
 ### Reverb
 
 > Reverb is a time-based effect that creates a large number of echoes that decay over time. Unlike the well-defined echoes from a delay pedal the reverb produces echoes which are blurred together creating a “wash” of sound. For the most natural sounding result reverbs should be placed at the very end of the effects chain.
@@ -191,6 +229,13 @@ Ableton Audio Effects:
 - [Reverb](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-32-reverb)
 - [Corpus](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-9-corpus)
 - [Resonators](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-31-resonators)
+
+Pack Audio Effects:
+
+- [Stray Cats Collection: Verbotron](https://www.ableton.com/en/packs/stray-cats-collection/#?item_type=free)
+- [Creative Extensions: Spectral Blur](https://www.ableton.com/en/packs/creative-extensions/#?item_type=max_for_live)
+- [Convolution Reverb](https://www.ableton.com/en/packs/convolution-reverb/#?item_type=max_for_live)
+- [Max For Live Essentials: Convolution Reverb](https://www.ableton.com/en/packs/max-live-essentials/#?item_type=max_for_live)
 
 ### Looper
 
@@ -212,8 +257,17 @@ Ableton Audio Effects:
 - [Utility](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-36-utility)
 - [Channel EQ](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-6-channel-eq)
 
+Pack Audio Effects:
+
+- [Stray Cats Collection: Color](https://www.ableton.com/en/packs/stray-cats-collection/#?item_type=free)
+
 ### Cabinet
 
 Ableton Audio Effects:
 
 - [Cabinet](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-5-cabinet)
+
+Pack Audio Effects:
+
+- [Convolution Reverb](https://www.ableton.com/en/packs/convolution-reverb/#?item_type=max_for_live)
+- [Max For Live Essentials: Convolution Reverb](https://www.ableton.com/en/packs/max-live-essentials/#?item_type=max_for_live)
