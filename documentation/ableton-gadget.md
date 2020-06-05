@@ -1,0 +1,66 @@
+# Korg Gadget to Ableton mapping ideas
+
+When using the [Gadget Roll](../src/gadget-roll) without Korg Gadget but with Ableton Suite.
+
+## Ideas
+
+- 🇦🇪 Abu Dhabi (Dynamic Loop Slicer)
+- 🇪🇬 Alexandria (Legendary Vintage Organ) ([mp-app.net](https://mp-app.net/korg-gadget-alexandria/))
+- 🇳🇱 Amsterdam (PCM SFX Boombox)
+- 🇩🇪 Berlin (Monophonic Synchronized Synthesizer)
+  - Sound
+    - [Analog](https://www.ableton.com/en/manual/live-instrument-reference/#24-1-analog)
+    - [Operator](https://www.ableton.com/en/manual/live-instrument-reference/#24-6-operator)
+- 🇪🇸 Bilbao (Lightning Sample Player)
+- 🇧🇪 Brussels (Monophonic Anthem Synthesizer) ([mp-app.net](https://mp-app.net/korg-gadget-brussels/))
+- 🇹🇭 Chiang Mai (Variable Phase Modulation Synthesizer)
+- 🇺🇸 Chicago (Tube Bass Machine) ([mp-app.net](https://mp-app.net/how-to-use-korg-gadget-chicago/))
+  - Sound
+    - [Analog](https://www.ableton.com/en/manual/live-instrument-reference/#24-1-analog)
+    - [Operator](https://www.ableton.com/en/manual/live-instrument-reference/#24-6-operator)
+  - MIDI
+    - [Arpeggiator](https://www.ableton.com/en/manual/live-midi-effect-reference/#23-1-arpeggiator)
+- 🇺🇳 Darwin (Digital PCM Synthesizer)
+- 🇮🇪 Dublin (Monophonic Semi-Modular Synthesizer) ([mp-app.net](https://mp-app.net/korg-gadget-dublin/))
+- 🇿🇦 Durban (Bass Effect Processor)
+- 🇯🇵 Ebina (TAITO ARCADE SYNTHESIZER)
+- 🇮🇹 Firenze (Funky Electric Keyboard) ([mp-app.net](https://mp-app.net/korg-gadget-firenze/))
+- 🇦🇺 Gladstone (Acoustic Drum Module) ([mp-app.net](https://mp-app.net/korg-gadget-gladstone/))
+- 🇬🇧 Glasgow (Superior PCM Synthesizer) ([mp-app.net](https://mp-app.net/korg-gadget-glasgow/))
+- 🇫🇮 Helsinki (Polyphonic Ambient Synthesizer) ([mp-app.net](https://mp-app.net/korg-gadget-helsinki/))
+- 🇯🇵 Kamata (Wave Table Synthesizer)
+- 🇺🇦 Kiev (Advanced Spatial Digital Synthesizer) ([mp-app.net](https://mp-app.net/korg-gadget-kiev/))
+- 🇯🇲 Kingston (Polyphonic Chip Synthesizer) ([mp-app.net](https://mp-app.net/korg-gadget-kingston/))
+- 🇺🇸 Lexington (Duophonic Analogue Synthesizer)
+- 🇵🇹 Lisbon (Polyphonic Sci-Fi Synthesizer)
+- 🇬🇧 London (Hypersonic PCM Drum Module) ([mp-app.net](https://mp-app.net/how-to-use-korg-gadget-le-london/))
+  - Sound
+    - [Impulse](https://www.ableton.com/en/manual/live-instrument-reference/#24-5-impulse)
+- 🇪🇸 Madrid (Dynamic Bass Machine) ([mp-app.net](https://mp-app.net/korg-gadget-madrid/))
+- 🇫🇷 Marseille (Polyphonic PCM Synthesizer) ([mp-app.net](https://mp-app.net/how-to-use-korg-gadget-marseille/))
+  - Sound
+    - [Analog](https://www.ableton.com/en/manual/live-instrument-reference/#24-1-analog)
+    - [Collision](https://www.ableton.com/en/manual/live-instrument-reference/#24-2-collision)
+    - [Electric](https://www.ableton.com/en/manual/live-instrument-reference/#24-3-electric)
+    - [Operator](https://www.ableton.com/en/manual/live-instrument-reference/#24-6-operator)
+    - [Wavetable](https://www.ableton.com/en/manual/live-instrument-reference/#24-10-wavetable)
+  - MIDI
+    - [Chord](https://www.ableton.com/en/manual/live-midi-effect-reference/#23-2-chord)
+    - [Scale](https://www.ableton.com/en/manual/live-midi-effect-reference/#23-6-scale)
+- 🇺🇸 Memphis (Semi-Modular Analogue Synthesizer)
+- 🇺🇸 Miami (Monophonic Wobble Synthesizer) ([mp-app.net](https://mp-app.net/korg-gadget-miami/))
+- 🇺🇸 Milpitas (Wave Sequence Synthesizer)
+- 🇫🇷 Montpellier (4VCO Analogue Synthesizer)
+- 🇨🇦 Montreal (Vintage Electric Piano)
+- 🇯🇵 Otorii (SEGA 16-bit DRUM MACHINE)
+- 🇺🇸 Phoenix (Polyphonic Analogue Synthesizer)
+- 🇮🇹 Pompei (6Voices Analogue Synthesizer)
+- 🇧🇷 Recife (Futuristic Drum Module) ([mp-app.net](https://mp-app.net/korg-gadget-drum-machine-recife/))
+- 🇦🇷 Rosario (Guitar Effect Processor)
+- 🇦🇹 Salzburg (Premium Acoustic Piano) ([mp-app.net](https://mp-app.net/korg-gadget-salzburg/))
+- 🇸🇪 Stockholm by Reason (Octo-Sample Loop Player)
+- 🇯🇵 Tokyo (Analog Percussion Synthesizer) ([mp-app.net](https://mp-app.net/korg-gadget-tokyo/))
+- 🇨🇦 Vancouver (Layering Melody Sampler)
+- 🇵🇱 Warszawa (Sophisticated Wavetable Synthesizer)
+- 🇩🇪 Wolfsburg (Hybrid Polyphonic Synthesizer)
+- 🇩🇪 Zurich (Universal Audio Recorder)
