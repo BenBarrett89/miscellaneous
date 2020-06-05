@@ -6,6 +6,7 @@ Generators/Sequencers:
 
 - Drums
 
+  - [Creative Extensions: Melodic Steps](https://www.ableton.com/en/packs/creative-extensions/)
   - [CV Tools: Rotating Rhythm Generator](https://www.ableton.com/en/packs/cv-tools/)
   - [Instant Haus](https://www.ableton.com/en/packs/instant-haus/)
   - [Probability Pack: Rhythmic Probability](https://www.ableton.com/en/packs/probability-pack/)
@@ -28,6 +29,8 @@ Generators/Sequencers:
 
 Tools:
 
+- MIDI
+  - [Ableton Live MIDI Effects](https://www.ableton.com/en/manual/live-midi-effect-reference/)
 - Key
   - [Schwarzonator II](https://www.ableton.com/en/packs/schwarzonator/)
 - Misc
