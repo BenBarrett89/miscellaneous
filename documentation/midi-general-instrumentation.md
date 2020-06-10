@@ -2,6 +2,8 @@
 
 ## [General MIDI Level 1 sound set](https://soundprogramming.net/file-formats/general-midi-instrument-list/)
 
+- [GM Level 1 Sound Set](https://www.midi.org/specifications-old/item/gm-level-1-sound-set)
+
 ### Instruments
 
 #### Piano
