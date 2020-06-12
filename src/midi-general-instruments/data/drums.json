@@ -1,0 +1,307 @@
+[
+  {
+    "number": 27,
+    "name": "High Q",
+    "version": 2
+  },
+  {
+    "number": 28,
+    "name": "Slap",
+    "version": 2
+  },
+  {
+    "number": 29,
+    "name": "Scratch Push",
+    "version": 2
+  },
+  {
+    "number": 30,
+    "name": "Scratch Pull",
+    "version": 2
+  },
+  {
+    "number": 31,
+    "name": "Sticks",
+    "version": 2
+  },
+  {
+    "number": 32,
+    "name": "Square Click",
+    "version": 2
+  },
+  {
+    "number": 33,
+    "name": "Metronome Click",
+    "version": 2
+  },
+  {
+    "number": 34,
+    "name": "Metronome Bell",
+    "version": 2
+  },
+  {
+    "number": 35,
+    "name": "Bass Drum 2",
+    "version": 1
+  },
+  {
+    "number": 36,
+    "name": "Bass Drum 1",
+    "version": 1
+  },
+  {
+    "number": 37,
+    "name": "Side Stick",
+    "version": 1
+  },
+  {
+    "number": 38,
+    "name": "Snare Drum 1",
+    "version": 1
+  },
+  {
+    "number": 39,
+    "name": "Hand Clap",
+    "version": 1
+  },
+  {
+    "number": 40,
+    "name": "Snare Drum 2",
+    "version": 1
+  },
+  {
+    "number": 41,
+    "name": "Low Tom 2",
+    "version": 1
+  },
+  {
+    "number": 42,
+    "name": "Closed Hi-hat",
+    "version": 1
+  },
+  {
+    "number": 43,
+    "name": "Low Tom 1",
+    "version": 1
+  },
+  {
+    "number": 44,
+    "name": "Pedal Hi-hat",
+    "version": 1
+  },
+  {
+    "number": 45,
+    "name": "Mid Tom 2",
+    "version": 1
+  },
+  {
+    "number": 46,
+    "name": "Open Hi-hat",
+    "version": 1
+  },
+  {
+    "number": 47,
+    "name": "Mid Tom 1",
+    "version": 1
+  },
+  {
+    "number": 48,
+    "name": "High Tom 2",
+    "version": 1
+  },
+  {
+    "number": 49,
+    "name": "Crash Cymbal 1",
+    "version": 1
+  },
+  {
+    "number": 50,
+    "name": "High Tom 1",
+    "version": 1
+  },
+  {
+    "number": 51,
+    "name": "Ride Cymbal 1",
+    "version": 1
+  },
+  {
+    "number": 52,
+    "name": "Chinese Cymbal",
+    "version": 1
+  },
+  {
+    "number": 53,
+    "name": "Ride Bell",
+    "version": 1
+  },
+  {
+    "number": 54,
+    "name": "Tambourine",
+    "version": 1
+  },
+  {
+    "number": 55,
+    "name": "Splash Cymbal",
+    "version": 1
+  },
+  {
+    "number": 56,
+    "name": "Cowbell",
+    "version": 1
+  },
+  {
+    "number": 57,
+    "name": "Crash Cymbal 2",
+    "version": 1
+  },
+  {
+    "number": 58,
+    "name": "Vibra Slap",
+    "version": 1
+  },
+  {
+    "number": 59,
+    "name": "Ride Cymbal 2",
+    "version": 1
+  },
+  {
+    "number": 60,
+    "name": "High Bongo",
+    "version": 1
+  },
+  {
+    "number": 61,
+    "name": "Low Bongo",
+    "version": 1
+  },
+  {
+    "number": 62,
+    "name": "Mute High Conga",
+    "version": 1
+  },
+  {
+    "number": 63,
+    "name": "Open High Conga",
+    "version": 1
+  },
+  {
+    "number": 64,
+    "name": "Low Conga",
+    "version": 1
+  },
+  {
+    "number": 65,
+    "name": "High Timbale",
+    "version": 1
+  },
+  {
+    "number": 66,
+    "name": "Low Timbale",
+    "version": 1
+  },
+  {
+    "number": 67,
+    "name": "High Agogo",
+    "version": 1
+  },
+  {
+    "number": 68,
+    "name": "Low Agogo",
+    "version": 1
+  },
+  {
+    "number": 69,
+    "name": "Cabasa",
+    "version": 1
+  },
+  {
+    "number": 70,
+    "name": "Maracas",
+    "version": 1
+  },
+  {
+    "number": 71,
+    "name": "Short Whistle",
+    "version": 1
+  },
+  {
+    "number": 72,
+    "name": "Long Whistle",
+    "version": 1
+  },
+  {
+    "number": 73,
+    "name": "Short Guiro",
+    "version": 1
+  },
+  {
+    "number": 74,
+    "name": "Long Guiro",
+    "version": 1
+  },
+  {
+    "number": 75,
+    "name": "Claves",
+    "version": 1
+  },
+  {
+    "number": 76,
+    "name": "High Wood Block",
+    "version": 1
+  },
+  {
+    "number": 77,
+    "name": "Low Wood Block",
+    "version": 1
+  },
+  {
+    "number": 78,
+    "name": "Mute Cuica",
+    "version": 1
+  },
+  {
+    "number": 79,
+    "name": "Open Cuica",
+    "version": 1
+  },
+  {
+    "number": 80,
+    "name": "Mute Triangle",
+    "version": 1
+  },
+  {
+    "number": 81,
+    "name": "Open Triangle",
+    "version": 1
+  },
+  {
+    "number": 82,
+    "name": "Shaker",
+    "version": 2
+  },
+  {
+    "number": 83,
+    "name": "Jingle Bell",
+    "version": 2
+  },
+  {
+    "number": 84,
+    "name": "Belltree",
+    "version": 2
+  },
+  {
+    "number": 85,
+    "name": "Castanets",
+    "version": 2
+  },
+  {
+    "number": 86,
+    "name": "Mute Surdo",
+    "version": 2
+  },
+  {
+    "number": 87,
+    "name": "Open Surdo",
+    "version": 2
+  }
+]

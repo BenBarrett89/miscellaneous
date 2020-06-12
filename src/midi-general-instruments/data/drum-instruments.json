@@ -1,0 +1,142 @@
+[
+  {
+    "name": "High Q",
+    "numbers": [27]
+  },
+  {
+    "name": "Slap",
+    "numbers": [28]
+  },
+  {
+    "name": "Scratch",
+    "numbers": [29, 30]
+  },
+  {
+    "name": "Sticks",
+    "numbers": [31]
+  },
+  {
+    "name": "Square Click",
+    "numbers": [32]
+  },
+  {
+    "name": "Metronome",
+    "numbers": [33, 34]
+  },
+  {
+    "name": "Bass Drum",
+    "numbers": [35, 36]
+  },
+  {
+    "name": "Snare Drum",
+    "numbers": [37, 38, 40]
+  },
+  {
+    "name": "Hand Clap",
+    "numbers": [39]
+  },
+  {
+    "name": "Tom",
+    "numbers": [41, 43, 45, 47, 48, 50]
+  },
+  {
+    "name": "Hi-hat",
+    "numbers": [42, 44, 46]
+  },
+  {
+    "name": "Crash Cymbal",
+    "numbers": [49, 57]
+  },
+  {
+    "name": "Ride Cymbal",
+    "numbers": [51, 53, 59]
+  },
+  {
+    "name": "Chinese Cymbal",
+    "numbers": [52]
+  },
+  {
+    "name": "Tambourine",
+    "numbers": [54]
+  },
+  {
+    "name": "Splash Cymbal",
+    "numbers": [55]
+  },
+  {
+    "name": "Cowbell",
+    "numbers": [56]
+  },
+  {
+    "name": "Vibra Slap",
+    "numbers": [58]
+  },
+  {
+    "name": "Bongo",
+    "numbers": [60, 61]
+  },
+  {
+    "name": "Conga",
+    "numbers": [62, 63, 64]
+  },
+  {
+    "name": "Timbale",
+    "numbers": [65, 66]
+  },
+  {
+    "name": "Agogo",
+    "numbers": [67, 68]
+  },
+  {
+    "name": "Cabasa",
+    "numbers": [69]
+  },
+  {
+    "name": "Maracas",
+    "numbers": [70]
+  },
+  {
+    "name": "Whistle",
+    "numbers": [71, 72]
+  },
+  {
+    "name": "Guiro",
+    "numbers": [73, 74]
+  },
+  {
+    "name": "Claves",
+    "numbers": [75]
+  },
+  {
+    "name": "Wood Block",
+    "numbers": [76, 77]
+  },
+  {
+    "name": "Cuica",
+    "numbers": [78, 79]
+  },
+  {
+    "name": "Triangle",
+    "numbers": [80, 81]
+  },
+  {
+    "name": "Shaker",
+    "numbers": [82]
+  },
+  {
+    "name": "Jingle Bell",
+    "numbers": [83]
+  },
+  {
+    "name": "Belltree",
+    "numbers": [84]
+  },
+  {
+    "name": "Castanets",
+    "numbers": [85]
+  },
+  {
+    "name": "Surdo",
+    "numbers": [86, 87]
+  }
+]

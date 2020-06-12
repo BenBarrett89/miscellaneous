@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Piano",
+    "start": 1,
+    "end": 8
+  },
+  {
+    "name": "Chromatic Percussion",
+    "start": 9,
+    "end": 16
+  },
+  {
+    "name": "Organ",
+    "start": 17,
+    "end": 24
+  },
+  {
+    "name": "Guitar",
+    "start": 25,
+    "end": 32
+  },
+  {
+    "name": "Bass",
+    "start": 33,
+    "end": 40
+  },
+  {
+    "name": "Strings",
+    "start": 41,
+    "end": 56
+  },
+  {
+    "name": "Brass",
+    "start": 57,
+    "end": 64
+  },
+  {
+    "name": "Reed",
+    "start": 65,
+    "end": 72
+  },
+  {
+    "name": "Pipe",
+    "start": 73,
+    "end": 80
+  },
+  {
+    "name": "Synth Lead",
+    "start": 81,
+    "end": 88
+  },
+  {
+    "name": "Synth Pad",
+    "start": 89,
+    "end": 96
+  },
+  {
+    "name": "Synth Effects",
+    "start": 97,
+    "end": 104
+  },
+  {
+    "name": "Ethnic",
+    "start": 105,
+    "end": 112
+  },
+  {
+    "name": "Percussive",
+    "start": 113,
+    "end": 119
+  },
+  {
+    "name": "Sound effects",
+    "start": 120,
+    "end": 128
+  }
+]
