@@ -9,3 +9,8 @@ Based on the [video (**How Nirvana Writes A Chord Progression**)](https://www.yo
   - Enter which formula you'd like to use
   - The progression will be printed
   - Select whether you want to generate another progression or not
+- `codepen` is similar to the code at [Codepen](https://codepen.io/BenBarrett89/pen/yLebvRr)
+  - Basic graphical web version of the same code
+  - Enter options in the form
+  - View the results
+  - Uses the [Hooktheory Hookpad](https://www.hooktheory.com/hookpad) colors for chords
