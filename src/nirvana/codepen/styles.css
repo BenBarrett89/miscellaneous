@@ -1,0 +1,115 @@
+.chord {
+  border-radius: 20px;
+  float: left;
+  font-family: Tahoma;
+  margin: 5px;
+  text-align: center;
+  width: 75px;
+}
+
+.chordNote {
+  font-size: 24px;
+}
+
+.chordDegree {
+  font-size: 14px;
+}
+
+.i {
+  background: #fc0006;
+  color: white;
+}
+
+.bii {
+  background: repeating-linear-gradient(
+    45deg,
+    #fc0006,
+    #fc0006 10px,
+    #fda112 10px,
+    #fda112 20px
+  );
+  color: white;
+}
+
+.ii {
+  background: #fda112;
+  color: black;
+}
+
+.biii {
+  background: repeating-linear-gradient(
+    45deg,
+    #fda112,
+    #fda112 10px,
+    #ebe509 10px,
+    #ebe509 20px
+  );
+  color: black;
+}
+
+.iii {
+  background: #ebe509;
+  color: black;
+}
+
+.iv {
+  background: #1ccf02;
+  color: black;
+}
+
+.bv {
+  background: repeating-linear-gradient(
+    45deg,
+    #1ccf02,
+    #1ccf02 10px,
+    #3600ff 10px,
+    #3600ff 20px
+  );
+  color: white;
+}
+
+.v {
+  background: #3600ff;
+  color: white;
+}
+
+.bvi {
+  background: repeating-linear-gradient(
+    45deg,
+    #3600ff,
+    #3600ff 10px,
+    #a700df 10px,
+    #a700df 20px
+  );
+  color: white;
+}
+
+.vi {
+  background: #a700df;
+  color: white;
+}
+
+.bvii {
+  background: repeating-linear-gradient(
+    45deg,
+    #a700df,
+    #a700df 10px,
+    #fb00bf 10px,
+    #fb00bf 20px
+  );
+  color: white;
+}
+
+.vii {
+  background: #fb00bf;
+  color: white;
+}
+
+#options div {
+  font-family: Tahoma;
+  margin-top: 10px;
+}
+
+.functionWrap {
+  display: inline-block;
+}

@@ -1,0 +1,66 @@
+<script src="./script.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<div id="options">
+  <div id="keySelect">
+    <label for="key">Key:</label>
+    <select id="key" name="key">
+      <option value="0">C</option>
+      <option value="1">C#/Db</option>
+      <option value="2">D</option>
+      <option value="3">D#/Eb</option>
+      <option value="4">E</option>
+      <option value="5">F</option>
+      <option value="6">F#/Gb</option>
+      <option value="7">G</option>
+      <option value="8">G#/Ab</option>
+      <option value="9">A</option>
+      <option value="10">A#/Bb</option>
+      <option value="11">B</option>
+    </select>
+  </div>
+
+  <div id="firstChordRootInput">
+    <label for="key">First Chord is Root:</label>
+    <input id="firstChordRoot" type="checkbox" checked="checked" />
+  </div>
+
+  <div id="functionInput">
+    <p>Function:</p>
+    <div class="functionWrap">
+      <input
+        type="radio"
+        id="function1"
+        name="function"
+        value="1"
+        checked="checked"
+      />
+      <label for="function1">1</label><br />
+    </div>
+
+    <div class="functionWrap">
+      <input type="radio" id="function2" name="function" value="2" />
+      <label for="function2">2</label><br />
+    </div>
+
+    <div class="functionWrap">
+      <input type="radio" id="function3" name="function" value="3" />
+      <label for="function3">3</label>
+    </div>
+
+    <div class="functionWrap">
+      <input type="radio" id="function4" name="function" value="4" />
+      <label for="function4">4</label>
+    </div>
+  </div>
+
+  <div id="generateButton">
+    <button type="button" onclick="generate()">Generate</button>
+  </div>
+</div>
+
+<div id="function"><p></p></div>
+
+<div id="result" />
