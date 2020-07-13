@@ -1,0 +1,164 @@
+{
+  "comics": [
+    {
+      "name": "A.D. After Death",
+      "publisher": "Image Comics",
+      "website": "https://imagecomics.com/comics/series/a-d-after-death",
+      "volumes": 3,
+      "complete": true,
+      "comicsOrg": "https://www.comics.org/issue/2064921/"
+    },
+    {
+      "name": "The Adventures of Red Sonja",
+      "publisher": "Dynamite Entertainment",
+      "website": "https://dynamite.com/htmlfiles/viewProduct.html?CAT=DF-Adventures_of_Red_Sonja",
+      "volumes": 3,
+      "complete": false,
+      "comicsOrg": "https://www.comics.org/series/16324/"
+    },
+    {
+      "name": "Altair: A Record of Battles",
+      "publisher": "Kodansha Comics",
+      "website": "https://kodanshacomics.com/series/altair-record-battles/",
+      "volumes": 8,
+      "complete": false,
+      "anilist": "https://anilist.co/manga/31605/Shokoku-no-Altair/"
+    },
+    {
+      "name": "Amazons, Abolitionists, and Activists: A Graphic History of Women's Fight for Their Rights",
+      "publisher": "Ten Speed",
+      "volumes": 1,
+      "complete": true,
+      "comicsOrg": "https://www.comics.org/issue/2035412/"
+    },
+    {
+      "name": "American Flagg Definitive Collection",
+      "publisher": "Dynamite Entertainment",
+      "volumes": 1,
+      "complete": true,
+      "comicsOrg": "https://www.comics.org/series/32321/"
+    },
+    {
+      "name": "APOSIMZ",
+      "publisher": "Kodansha Comics",
+      "website": "https://kodanshacomics.com/series/aposimz/",
+      "volumes": 2,
+      "complete": false,
+      "anilist": "https://anilist.co/manga/98354/Ningyou-no-Kuni/"
+    },
+    {
+      "name": "Archie: A Rock 'n' Roll Romance",
+      "publisher": "Archie Comics",
+      "volumes": 1,
+      "complete": true,
+      "comicsOrg": "https://www.comics.org/issue/1435676/"
+    },
+    {
+      "name": "Archie World Tour",
+      "publisher": "Archie Comics",
+      "volumes": 1,
+      "complete": true,
+      "comicsOrg": "https://www.comics.org/issue/874700/"
+    },
+    {
+      "name": "The Archies & Josie and the Pussycats",
+      "publisher": "Archie Comics",
+      "volumes": 1,
+      "complete": true,
+      "comicsOrg": "https://www.comics.org/issue/418627/"
+    },
+    {
+      "name": "Archival Quality",
+      "publisher": "Oni Press",
+      "website": "https://onipress.com/products/archival-quality",
+      "volumes": 1,
+      "complete": true,
+      "comicsOrg": "https://www.comics.org/issue/1791723/"
+    },
+    {
+      "name": "Army of Darkness/Bubba Ho-Tep",
+      "publisher": "Dynamite Entertainment",
+      "website": "https://dynamite.com/htmlfiles/viewProduct.html?CAT=DF-Army_of_Darkness_Bubba_Ho-Tep",
+      "volumes": 1,
+      "complete": false,
+      "comicsOrg": "https://www.comics.org/issue/2013641/"
+    },
+    {
+      "name": "As the Crow Flies",
+      "publisher": "Iron Circus Comics",
+      "website": "https://ironcircus.com/?product=as-the-crow-flies",
+      "volumes": 1,
+      "complete": true,
+      "comicsOrg": "https://www.comics.org/issue/1751530/"
+    },
+    {
+      "name": "Ascender",
+      "publisher": "Image Comics",
+      "website": "https://imagecomics.com/comics/series/ascender",
+      "volumes": 1,
+      "complete": false,
+      "comicsOrg": "https://www.comics.org/series/144474/"
+    },
+    {
+      "name": "Ash VS. The Army of Darkness",
+      "publisher": "Dynamite Entertainment",
+      "website": "https://dynamite.com/htmlfiles/viewProduct.html?CAT=DF-Ash_Vs_The_Army_of_Darkness",
+      "volumes": 1,
+      "complete": true,
+      "comicsOrg": "https://www.comics.org/series/114718/"
+    },
+    {
+      "name": "Attack on Titan: Before the Fall",
+      "publisher": "Kodansha Comics",
+      "website": "https://kodanshacomics.com/series/attack-on-titan-before-the-fall/",
+      "volumes": 16,
+      "complete": false,
+      "anilist": "https://anilist.co/manga/85312/Shingeki-no-Kyojin-Before-the-Fall/"
+    },
+    {
+      "name": "Attack on Titan: Exclusive Artbook",
+      "publisher": "Kodansha Comics",
+      "volumes": 1,
+      "complete": true
+    },
+    {
+      "name": "Attack on Titan Guidebook: Inside & Outside",
+      "publisher": "Kodansha Comics",
+      "website": "hhttps://kodanshacomics.com/series/attack-on-titan-guidebook-inside-outside/",
+      "volumes": 1,
+      "complete": true
+    },
+    {
+      "name": "Attack on Titan: Junior High",
+      "publisher": "Kodansha Comics",
+      "website": "https://kodanshacomics.com/series/attack-on-titan-junior-high/",
+      "volumes": 4,
+      "complete": false,
+      "anilist": "https://anilist.co/manga/66535/Shingeki-Kyojin-Chuugakkou/"
+    },
+    {
+      "name": "Attack on Titan: Lost Girls",
+      "publisher": "Kodansha Comics",
+      "website": "https://kodanshacomics.com/series/attack-titan-lost-girls/",
+      "volumes": 2,
+      "complete": false,
+      "anilist": "https://anilist.co/manga/95409/Shingeki-no-Kyojin-Lost-Girls/"
+    },
+    {
+      "name": "Attack on Titan: No Regrets",
+      "publisher": "Kodansha Comics",
+      "website": "https://kodanshacomics.com/series/attack-on-titan-no-regrets/",
+      "volumes": 2,
+      "complete": false,
+      "anilist": "https://anilist.co/manga/85199/Shingeki-no-Kyojin-Gaiden-Kuinaki-Sentaku/"
+    },
+    {
+      "name": "Attack on Titan",
+      "publisher": "Kodansha Comics",
+      "website": "https://kodanshacomics.com/series/attack-on-titan/",
+      "volumes": 22,
+      "complete": false,
+      "anilist": "https://anilist.co/manga/53390/Shingeki-no-Kyojin/"
+    }
+  ]
+}
