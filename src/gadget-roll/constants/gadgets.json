@@ -185,7 +185,7 @@
       "country": "AE",
       "type": "Dynamic Loop Slicer",
       "timbres": [],
-      "uses": ["Drums"],
+      "uses": ["Harmony", "Drums"],
       "image": "https://cdn.korg.com/us/products/upload/b4f36a08f10e8fdc2e0e6aa58e5454cd_pc.png",
       "description": "Instantly and automatically slice loop samples. This is a futuristic-looking sampler gadget that lets you freely manipulate grooves. Carefully selected electro drum and chord sequences are provided, and you can instantly transform them into other-dimensional sounds with a single-stroke gesture. You can also freely import your own favorite samples for unlimited possibilities."
     },
