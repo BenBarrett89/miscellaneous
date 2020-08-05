@@ -95,7 +95,7 @@
       "country": "NL",
       "type": "PCM SFX Boombox",
       "timbres": [],
-      "uses": ["SFX"],
+      "uses": ["Melody", "Drums", "SFX"],
       "image": "https://cdn.korg.com/us/products/upload/30bc434402878336974ea58525ad3ae9_pc.png",
       "description": "With the beefy looks of a gold body sporting chrome knobs, this is a four-part PCM sound module gadget containing more than one hundred sound effects that give impact to your song, including one-shot sounds, synth sounds, and scratches. It also contains numerous chord samples, allowing you to create chord progressions as if you were assembling a collage."
     },
@@ -113,7 +113,7 @@
       "country": "TH",
       "type": "Variable Phase Modulation Synthesizer",
       "timbres": [],
-      "uses": ["Harmony", "SFX"],
+      "uses": ["Melody", "Harmony", "SFX"],
       "image": "https://cdn.korg.com/us/products/upload/d309441d6cff9cb1f9f085db32536947_pc.png",
       "description": "This is a polyphonic synthesizer Gadget that features VPM (Variable Phase Modulation) synthesis. With a subdued gold body, this gadget is particularly good at sparkling metallic bell sounds."
     },
