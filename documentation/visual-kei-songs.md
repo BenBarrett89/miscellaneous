@@ -1,0 +1,65 @@
+# Visual Kei Songs
+
+- Aicle. -
+- Alice Nine - RAINBOWS
+- Alice Nine -
+- An Café - Maple Gunman
+- attic - DRAMATIC
+- attic - Brave
+- Ayabie - Cubic L/Rock
+- Black Gene For the Next Scene - シニカル ワー悪～ This is monster world ～
+- ClearVeil - The Dropping Sky
+- D - Night Ship D
+- DELUHI - G.A.L.D
+- DELUHI - Revolver Blast
+- Dir en grey -
+- DOG in the Parallel World Orchestra - 
+- exist trace -
+- Gackt - Lu:na
+- Gackt - OASIS
+- The GazettE - Filth in the Beauty
+- The GazettE -
+- girugamesh -
+- Heisei Isshin -
+- hide -
+- HIZAKI grace project -
+- Kagrra, -
+- Kra - Artman
+- Kra -
+- Lin -
+- LM.C - OH MY JULIET
+- LM.C -
+- LUNA SEA - BELIEVE
+- LUNA SEA - ROSIER
+- LUNA SEA - PRECIOUS
+- lynch. - Adore
+- Malice Mizer -
+- Megamasso -
+- Megaromania - 
+- MEJIBRAY -
+- Mix Speaker's, Inc. -
+- Miyavi -
+- Moi dix Mois -
+- Nega -
+- Nightmare -
+- NoGod -
+- Pierrot - Mad Sky
+- Phantasmagoria -
+- Psycho le Cemu -
+- Sadie -
+- Sendai Kamotsu -
+- Serial Number - Attention Please
+- Serial Number - Goya
+- Shojo Lolita 23Q -
+- Siva - Brave
+- Siva - Concealment ?
+- Siva - Mafia
+- Siva - Riot
+- SuG -
+- UnsraW -
+- VAMPS -
+- Versailles -
+- Vidoll - At age 13
+- Vidoll - Tree
+- Wizard -
+- X Japan -
