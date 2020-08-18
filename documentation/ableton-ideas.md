@@ -74,3 +74,44 @@ Analogisation:
 [Ableton Live Audio Effects](https://www.ableton.com/en/manual/live-audio-effect-reference/)
 
 - [Stray Cats Collection: Color](https://www.ableton.com/en/packs/stray-cats-collection/)
+
+## Coloring
+
+[RC-20 Retro Color](https://www.xlnaudio.com/products/addictive_fx/effect/rc-20_retro_color)
+
+### Noise
+
+- [Stray Cats Collection: Color](https://www.ableton.com/en/packs/stray-cats-collection/)
+- [Vinyl Distortion](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-37-vinyl-distortion)
+- [Erosion](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-16-erosion)
+
+### Wobble
+
+- [Stray Cats Collection: Color](https://www.ableton.com/en/packs/stray-cats-collection/)
+
+### Distort
+
+- [Stray Cats Collection: Color](https://www.ableton.com/en/packs/stray-cats-collection/)
+- [Dynamic Tube](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-12-dynamic-tube)
+- [Erosion](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-16-erosion)
+- [Overdrive](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-27-overdrive)
+- [Pedal](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-28-pedal)
+- [Saturator](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-33-saturator)
+
+### Digital
+
+- [Erosion](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-16-erosion)
+- [Redux](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-30-redux)
+
+### Space
+
+- [Delay](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-10-delay)
+- [Echo](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-13-echo)
+- [Filter Delay](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-18-filter-delay)
+- [Grain Delay](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-23-grain-delay)
+- [Resonators](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-31-resonators)
+- [Reverb](https://www.ableton.com/en/manual/live-audio-effect-reference/#22-32-reverb)
+
+### Magnetic
+
+???
