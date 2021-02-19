@@ -1,0 +1,22 @@
+{
+  "types": [
+    "Kick Drum",
+    "Snare Drum",
+    "Clap",
+    "Closed Hi-Hat",
+    "Open Hi-Hat",
+    "Shaker",
+    "Tom Drum",
+    "Ride Cymbal",
+    "Crash/Accent Cymbal",
+    "Splash Cymbal",
+    "Percussion",
+    "Clave",
+    "Wood Block",
+    "Cowbell",
+    "Bongo",
+    "Conga",
+    "Timbale",
+    "Agogo"
+  ]
+}

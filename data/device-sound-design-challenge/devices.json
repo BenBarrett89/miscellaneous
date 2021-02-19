@@ -1,0 +1,87 @@
+{
+  "devices": [
+    {
+      "name": "Analog",
+      "referenceUrl": "https://www.ableton.com/en/manual/live-instrument-reference/#24-1-analog",
+      "imageUrl": "https://cdn-resources.ableton.com/80bA26cPQ1hEJDFjpUKntxfqdmG3ZykO/static/images/manual/en/Analog_opt.330222b6d25b.png",
+      "type": "Virtual analog synthesizer"
+    },
+    {
+      "name": "Collision",
+      "referenceUrl": "https://www.ableton.com/en/manual/live-instrument-reference/#24-2-collision",
+      "imageUrl": "https://cdn-resources.ableton.com/80bA26cPQ1hEJDFjpUKntxfqdmG3ZykO/static/images/manual/en/Collision_opt.4689a1ebdd67.png",
+      "type": "Mallet percussion synthesizer"
+    },
+    {
+      "name": "Electric",
+      "referenceUrl": "https://www.ableton.com/en/manual/live-instrument-reference/#24-3-electric",
+      "imageUrl": "https://cdn-resources.ableton.com/80bA26cPQ1hEJDFjpUKntxfqdmG3ZykO/static/images/manual/en/Electric_opt.cc6ed811f741.png",
+      "type": "Software electric piano"
+    },
+    {
+      "name": "Operator",
+      "referenceUrl": "https://www.ableton.com/en/manual/live-instrument-reference/#24-6-operator",
+      "imageUrl": "https://cdn-resources.ableton.com/80bA26cPQ1hEJDFjpUKntxfqdmG3ZykO/static/images/manual/en/Operator_opt.068303b60e62.png",
+      "type": "Flexible synthesizer"
+    },
+    {
+      "name": "Tension",
+      "referenceUrl": "https://www.ableton.com/en/manual/live-instrument-reference/#24-9-tension",
+      "imageUrl": "https://cdn-resources.ableton.com/80bA26cPQ1hEJDFjpUKntxfqdmG3ZykO/static/images/manual/en/TensionStringTab_opt.d00208eabe9f.png",
+      "type": "String instrument synthesizer"
+    },
+    {
+      "name": "Wavetable",
+      "referenceUrl": "https://www.ableton.com/en/manual/live-instrument-reference/#24-10-wavetable",
+      "imageUrl": "https://cdn-resources.ableton.com/80bA26cPQ1hEJDFjpUKntxfqdmG3ZykO/static/images/manual/en/WavetableInstrument_opt.910713ac4652.png",
+      "type": "Wavetable synthesizer"
+    },
+    {
+      "name": "Bass",
+      "referenceUrl": "https://www.ableton.com/en/packs/creative-extensions/",
+      "imageUrl": "https://cdn-resources.ableton.com/resources/filer_thumbnails/82/c9/82c9e925-c69b-497d-bba4-cd74ee75817a/bass_new_800_300_lightgray_bg_hq.jpg__800x300_q85_crop_subsampling-2_upscale.jpg",
+      "type": "Monophonic virtual analog synthesizer"
+    },
+    {
+      "name": "Poli",
+      "referenceUrl": "https://www.ableton.com/en/packs/creative-extensions/",
+      "videoUrl": "https://ableton-production.imgix.net/blog/creative-extensions/poli.gif?fm=mp4&w=800",
+      "type": "Monophonic virtual analog synthesizer"
+    },
+    {
+      "name": "Multi",
+      "referenceUrl": "https://www.ableton.com/en/packs/max-live-essentials/",
+      "imageUrl": "https://cdn-resources.ableton.com/resources/filer_thumbnails/23/19/2319b97a-9891-40b9-8ca1-242937a648a8/multi.png__725x375_q85_crop_subsampling-2_upscale.jpg",
+      "type": "Multimode synthesizer"
+    },
+    {
+      "name": "Monolake Granulator II",
+      "referenceUrl": "https://www.ableton.com/en/packs/granulator-ii/",
+      "type": "Granular synthesizer"
+    },
+    {
+      "name": "Opfour",
+      "referenceUrl": "https://www.ableton.com/en/packs/classic-synths/",
+      "imageUrl": "https://cdn-resources.ableton.com/resources/filer_thumbnails/public/2012/01/09/katsuhiro-chiba-classic-synths-opfour.png__556x92_q85_crop_subsampling-2_upscale.jpg",
+      "type": "Yamaha TX81Z clone"
+    },
+    {
+      "name": "August",
+      "referenceUrl": "https://www.ableton.com/en/packs/classic-synths/",
+      "imageUrl": "https://cdn-resources.ableton.com/resources/filer_thumbnails/public/2012/01/09/katsuhiro-chiba-classic-synths-august.png__556x176_q85_crop_subsampling-2_upscale.jpg",
+      "type": "Subtractive synthesizer"
+    },
+    {
+      "name": "Sep2",
+      "referenceUrl": "https://www.ableton.com/en/packs/classic-synths/",
+      "imageUrl": "https://cdn-resources.ableton.com/resources/filer_thumbnails/public/2012/01/09/katsuhiro-chiba-classic-synths-sep2.png__556x165_q85_crop_subsampling-2_upscale.jpg",
+      "type": "Lo-fi percussion synthesizer"
+    },
+    {
+      "name": "Kasio",
+      "referenceUrl": "https://www.ableton.com/en/packs/kasio-m4l/",
+      "imageUrl": "https://cdn-resources.ableton.com/resources/filer_thumbnails/public/2011/11/08/kasio_screenshot2.jpg__556x119_q85_crop_subsampling-2_upscale.jpg",
+      "type": "Phase distortion synthesizer"
+    }
+  ]
+}

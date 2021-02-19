@@ -159,6 +159,22 @@
       "volumes": 22,
       "complete": false,
       "anilist": "https://anilist.co/manga/53390/Shingeki-no-Kyojin/"
+    },
+    {
+      "name": "Bakemonogatari",
+      "publisher": "Kodansha Comics",
+      "website": "https://kodanshacomics.com/series/bakemonogatari/",
+      "volumes": 1,
+      "complete": false,
+      "anilist": "https://anilist.co/manga/101311/Bakemonogatari/"
+    },
+    {
+      "name": "Barbarella",
+      "publisher": "Dynamite Entertainment",
+      "website": "https://dynamite.com/htmlfiles/viewProduct.html?CAT=DF-Barbarella",
+      "volumes": 1,
+      "complete": false,
+      "comicsOrg": "https://www.comics.org/series/119087/"
     }
   ]
 }
