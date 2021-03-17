@@ -71,10 +71,29 @@ const calculate = async ({ data, fs, path }) => {
     return output.concat(...keyModes)
   }, [])
 
+  const mapNotesToIndices = note => note.index
+
+  const comparisons = modes.reduce((output, mode, _, modes) => {
+    const modeNoteIndices = mode.notes.map(mapNotesToIndices)
+    return output.concat(...modes.map(comparisonMode => {
+      const comparisonModeNoteIndices = comparisonMode.notes.map(mapNotesToIndices)
+      const commonNoteIndices = modeNoteIndices.filter(index => comparisonModeNoteIndices.includes(index))
+      return {
+        id: {
+          mode: mode.id,
+          comparison: comparisonMode.id
+        },
+        common: commonNoteIndices
+      }
+    }))
+  }, [])
+
   const outputFilePathKeys = path.join(__dirname, '..', 'data', 'keys.json')
   await fs.writeFileSync(outputFilePathKeys, JSON.stringify(keys, undefined, 2))
   const outputFilePathModes = path.join(__dirname, '..', 'data', 'modes.json')
   await fs.writeFileSync(outputFilePathModes, JSON.stringify(modes, undefined, 2))
+  const outputFilePathComparisons = path.join(__dirname, '..', 'data', 'comparisons.json')
+  await fs.writeFileSync(outputFilePathComparisons, JSON.stringify(comparisons))
 }
 
 calculate({
