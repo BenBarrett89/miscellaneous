@@ -59,7 +59,7 @@ const calculate = async ({ data, fs, path }) => {
 
   const modes = keys.reduce((output, key, keyIndex) => {
     const keyModes = key.modes.map((mode, modeIndex) => Object.assign({}, mode, {
-      id: `${keyIndex}${modeIndex}`,
+      id: `${mode.notes[0].index}-${modeIndex}`,
       mode: modeIndex,
       key: {
         major: key.major,
