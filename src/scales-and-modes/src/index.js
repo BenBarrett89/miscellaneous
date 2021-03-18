@@ -88,11 +88,15 @@ const calculate = async ({ data, fs, path }) => {
     }))
   }, [])
 
-  const outputFilePathKeys = path.join(__dirname, '..', 'data', 'keys.json')
+  const dataDirectory = path.join(__dirname, '..', 'data')
+
+  const outputFilePathData = path.join(dataDirectory, 'data.json')
+  await fs.writeFileSync(outputFilePathData, JSON.stringify(data, undefined, 2))
+  const outputFilePathKeys = path.join(dataDirectory, 'keys.json')
   await fs.writeFileSync(outputFilePathKeys, JSON.stringify(keys, undefined, 2))
-  const outputFilePathModes = path.join(__dirname, '..', 'data', 'modes.json')
+  const outputFilePathModes = path.join(dataDirectory, 'modes.json')
   await fs.writeFileSync(outputFilePathModes, JSON.stringify(modes, undefined, 2))
-  const outputFilePathComparisons = path.join(__dirname, '..', 'data', 'comparisons.json')
+  const outputFilePathComparisons = path.join(dataDirectory, 'comparisons.json')
   await fs.writeFileSync(outputFilePathComparisons, JSON.stringify(comparisons))
 }
 
