@@ -1,27 +1,27 @@
 # Old Japanese Sonic Box Art
 
-<img src="https://info.sonicretro.org/images/thumb/3/37/Sonic1_box_jap.jpg/1600px-Sonic1_box_jap.jpg" width="600">
+<img src="https://retrocdn.net/images/3/37/Sonic1_box_jap.jpg" width="600">
 
 <hr/>
 
-<img src="https://info.sonicretro.org/images/thumb/f/f4/Sonic2_box_jap.jpg/1600px-Sonic2_box_jap.jpg" width="600">
+<img src="https://retrocdn.net/images/f/f4/Sonic2_box_jap.jpg" width="600">
 
 <hr/>
 
-<img src="https://info.sonicretro.org/images/thumb/a/a6/Sonic3-box-jap.jpg/1600px-Sonic3-box-jap.jpg" width="600">
+<img src="https://retrocdn.net/images/a/a6/Sonic3-box-jap.jpg" width="600">
 
 <hr/>
 
-<img src="https://info.sonicretro.org/images/thumb/9/9a/Sk-box-jap-back.jpg/712px-Sk-box-jap-back.jpg" width="300">
-<img src="https://info.sonicretro.org/images/thumb/f/f1/Sk-box-jap.jpg/712px-Sk-box-jap.jpg" width="300">
+<img src="https://info.sonicretro.org/images/9/9a/Sk-box-jap-back.jpg" width="300">
+<img src="https://retrocdn.net/images/f/f1/Sk-box-jap.jpg" width="300">
 
 <hr/>
 
-<img src="https://info.sonicretro.org/images/5/5d/Spinball-box-jap.jpg" width="300">
+<img src="https://retrocdn.net/images/5/5d/Spinball-box-jap.jpg" width="600">
 
 <hr/>
 
-<img src="https://info.sonicretro.org/images/thumb/3/36/S3d_sat_jp_back_cover.jpg/1539px-S3d_sat_jp_back_cover.jpg" width="390">
+<img src="https://retrocdn.net/images/3/36/S3d_sat_jp_back_cover.jpg" width="390">
 <img src="https://info.sonicretro.org/images/c/c9/S3dss-box-jap.jpg" width="300">
 
 <hr/>
@@ -68,8 +68,8 @@
 
 <hr/>
 
-<img src="https://info.sonicretro.org/images/thumb/c/ce/TailsSkypatrol_GG_JP_Box_Back.jpg/874px-TailsSkypatrol_GG_JP_Box_Back.jpg" width="300">
-<img src="https://info.sonicretro.org/images/thumb/a/a7/TailsskypatrolBox_jp.jpg/874px-TailsskypatrolBox_jp.jpg" width="300">
+<img src="https://info.sonicretro.org/images/c/ce/TailsSkypatrol_GG_JP_Box_Back.jpg" width="300">
+<img src="https://retrocdn.net/images/a/a7/TailsskypatrolBox_jp.jpg" width="300">
 
 <hr/>
 
@@ -83,10 +83,10 @@
 
 <hr/>
 
-<img src="https://info.sonicretro.org/images/7/73/Sjam_sat_back_cover.jpg" width="390">
+<img src="https://retrocdn.net/images/7/73/Sjam_sat_back_cover.jpg" width="390">
 <img src="https://info.sonicretro.org/images/7/74/Sjam-box-jap.jpg" width="300">
 
 <hr/>
 
-<img src="https://info.sonicretro.org/images/f/ff/Chaotix_32x_jp_back_cover.jpg" width="300">
-<img src="https://info.sonicretro.org/images/3/3b/Chaotix-box-jap.jpg" width="300">
+<img src="https://retrocdn.net/images/f/ff/Chaotix_32x_jp_back_cover.jpg" width="300">
+<img src="https://retrocdn.net/images/3/3b/Chaotix-box-jap.jpg" width="300">
