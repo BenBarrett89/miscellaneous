@@ -1,0 +1,141 @@
+<div class="container">
+
+  <div class="row">
+    <h1>Scale Comparer</h1>
+  </div>
+
+  <div class="row">
+
+    <div id="scale-1" class="col-md">
+
+      <div id="scale-1-input" class="p-2">
+        <h2 class="h5">Select first scale</h2>
+        <label for="scale-1-root-select" class="form-label">Root</label>
+        <select id="scale-1-root-select" class="form-select">
+        </select>
+        <label for="scale-1-scale-select" class="form-label">Scale</label>
+        <select id="scale-1-scale-select" class="form-select">
+        </select>
+        
+        <div class="py-2">
+          <button type="button" class="btn btn-secondary" onclick="randomiseScale(1);">Random</button>
+        </div>
+      </div>
+
+      <div id="scale-1-info" class="p-2">
+        <div id="scale-1-key-info">
+          <h2 class="h5">Key</h2>
+          <p id="scale-1-key"></p>
+          <p id="scale-1-key-pitches"></p>
+        </div>
+        <div>
+          <h2 class="h5">Scale Notes</h2>
+        </div>
+        <div id="scale-1-notes" class="row p-4">
+        </div>
+      </div>
+
+    </div>
+
+    <div id="scale-2" class="col-md">
+      <div id="scale-2-input" class="p-2">
+        <h2 class="h5">Select second scale</h2>
+        <label for="scale-2-root-select" class="form-label">Root</label>
+        <select id="scale-2-root-select" class="form-select">
+        </select>
+        <label for="scale-2-scale-select" class="form-label">Scale</label>
+        <select id="scale-2-scale-select" class="form-select">
+        </select>
+        
+        <div class="py-2">
+          <button type="button" class="btn btn-secondary" onclick="randomiseScale(2);">Random</button>
+        </div>
+      </div>
+      <div id="scale-2-info" class="p-2">
+        <div id="scale-2-key-info">
+          <h2 class="h5">Key</h2>
+          <p id="scale-2-key"></p>
+          <p id="scale-2-key-pitches"></p>
+        </div>
+        <div>
+          <h2 class="h5">Scale Notes</h2>
+        </div>
+        <div id="scale-2-notes" class="row p-4">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div id="common-notes" class="col-md">
+      <h2 class="h5">Common notes</h2>
+      <div id="common-notes-row" class="row p-4">
+      </div>
+    </div>
+    <div id="piano">
+      <div id="piano-controls" class="row">
+        <h2 class="h5">Piano Display</h2>
+        <div id="piano-show-scale-1" class="col-md">
+          <input type="checkbox" id="piano-scale-1" name="piano-scale-1" value="piano-scale-1" checked onclick="handleSelectionUpdate();" />
+          <label for="vehicle1">Show first scale</label>
+        </div>
+        <div id="piano-show-scale-2" class="col-md">
+          <input type="checkbox" id="piano-scale-2" name="piano-scale-2" value="piano-scale-2" checked onclick="handleSelectionUpdate();" />
+          <label for="vehicle1">Show second scale</label>
+        </div>
+      </div>
+      <svg viewBox="0 0 152 32" xmlns="http://www.w3.org/2000/svg">
+        <g id="piano-0" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1">
+          <rect x="1" y="1" rx="1" ry="2" width="10" height="30" />
+          <rect x="71" y="1" rx="1" ry="2" width="10" height="30" />
+          <rect x="141" y="1" rx="1" ry="2" width="10" height="30" />
+        </g>
+        <g id="piano-2" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1">
+          <rect x="11" y="1" rx="1" ry="2" width="10" height="30" />
+          <rect x="81" y="1" rx="1" ry="2" width="10" height="30" />
+        </g>
+        <g id="piano-4" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1">
+          <rect x="21" y="1" rx="1" ry="2" width="10" height="30" />
+          <rect x="91" y="1" rx="1" ry="2" width="10" height="30" />
+        </g>
+        <g id="piano-5" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1">
+          <rect x="31" y="1" rx="1" ry="2" width="10" height="30" />
+          <rect x="101" y="1" rx="1" ry="2" width="10" height="30" />
+        </g>
+        <g id="piano-7" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1">
+          <rect x="41" y="1" rx="1" ry="2" width="10" height="30" />
+          <rect x="111" y="1" rx="1" ry="2" width="10" height="30" />
+        </g>
+        <g id="piano-9" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1">
+          <rect x="51" y="1" rx="1" ry="2" width="10" height="30" />
+          <rect x="121" y="1" rx="1" ry="2" width="10" height="30" />
+        </g>
+        <g id="piano-11" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1">
+          <rect x="61" y="1" rx="1" ry="2" width="10" height="30" />
+          <rect x="131" y="1" rx="1" ry="2" width="10" height="30" />
+        </g>
+        <g id="piano-1" style="fill:rgb(20,20,20);stroke:rgb(0,0,0);stroke-width:1">
+          <rect x="8.5" y="1" rx="1" ry="2" width="5" height="20" />
+          <rect x="78.5" y="1" rx="1" ry="2" width="5" height="20" />
+        </g>
+        <g id="piano-3" style="fill:rgb(20,20,20);stroke:rgb(0,0,0);stroke-width:1">
+          <rect x="18.5" y="1" rx="1" ry="2" width="5" height="20" />
+          <rect x="88.5" y="1" rx="1" ry="2" width="5" height="20" />
+        </g>
+        <g id="piano-6" style="fill:rgb(20,20,20);stroke:rgb(0,0,0);stroke-width:1">
+          <rect x="38.5" y="1" rx="1" ry="2" width="5" height="20" />
+          <rect x="108.5" y="1" rx="1" ry="2" width="5" height="20" />
+        </g>
+        <g id="piano-8" style="fill:rgb(20,20,20);stroke:rgb(0,0,0);stroke-width:1">
+          <rect x="48.5" y="1" rx="1" ry="2" width="5" height="20" />
+          <rect x="118.5" y="1" rx="1" ry="2" width="5" height="20" />
+        </g>
+        <g id="piano-10" style="fill:rgb(20,20,20);stroke:rgb(0,0,0);stroke-width:1">
+          <rect x="58.5" y="1" rx="1" ry="2" width="5" height="20" />
+          <rect x="128.5" y="1" rx="1" ry="2" width="5" height="20" />
+        </g>
+      </svg>
+    </div>
+  </div>
+
+</div>

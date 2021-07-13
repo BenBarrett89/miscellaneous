@@ -1,0 +1,73 @@
+$red: #fc0006;
+$orange: #fda112;
+$yellow: #ebe509;
+$green: #1ccf02;
+$blue: #3600ff;
+$purple: #a700df;
+$pink: #fb00bf;
+
+$light: #f8f9fa;
+$dark: #212529;
+
+@mixin note-box {
+  background-color: $light;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+@mixin light-text {
+  color: $light;
+}
+
+@mixin dark-text {
+  color: $dark;
+}
+
+.common-note {
+  @include note-box;
+  @include light-text;
+  background-color: $dark;
+}
+
+.first {
+  @include note-box;
+  @include dark-text;
+  background-color: $red;
+}
+
+.second {
+  @include note-box;
+  @include dark-text;
+  background-color: $orange;
+}
+
+.third {
+  @include note-box;
+  @include dark-text;
+  background-color: $yellow;
+}
+
+.fourth {
+  @include note-box;
+  @include dark-text;
+  background-color: $green;
+}
+
+.fifth {
+  @include note-box;
+  @include light-text;
+  background-color: $blue;
+}
+
+.sixth {
+  @include note-box;
+  @include light-text;
+  background-color: $purple;
+}
+
+.seventh {
+  @include note-box;
+  @include dark-text;
+  background-color: $pink;
+}
