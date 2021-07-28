@@ -1,0 +1,70 @@
+<body>
+  <div class="container mt-3">
+    <h1>Interval Calculator</h1>
+    <p>Basic interval calculator. Select the two notes you wish to compare.</p>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+          <div class="card-header">First note</div>
+          <div class="card-body">
+            <p class="card-text">
+              <button id="0-0" type="button" class="btn btn-dark btn-lg" onclick="handleChange(0, 0);">C</button>
+              <button id="0-1" type="button" class="btn btn-dark btn-lg" onclick="handleChange(0, 1);">C#/Db</button>
+              <button id="0-2" type="button" class="btn btn-dark btn-lg" onclick="handleChange(0, 2);">D</button>
+              <button id="0-3" type="button" class="btn btn-dark btn-lg" onclick="handleChange(0, 3);">D#/Eb</button>
+              <button id="0-4" type="button" class="btn btn-dark btn-lg" onclick="handleChange(0, 4);">E</button>
+              <button id="0-5" type="button" class="btn btn-dark btn-lg" onclick="handleChange(0, 5);">F</button>
+              <button id="0-6" type="button" class="btn btn-dark btn-lg" onclick="handleChange(0, 6);">F#/Gb</button>
+              <button id="0-7" type="button" class="btn btn-dark btn-lg" onclick="handleChange(0, 7);">G</button>
+              <button id="0-8" type="button" class="btn btn-dark btn-lg" onclick="handleChange(0, 8);">G#\Ab</button>
+              <button id="0-9" type="button" class="btn btn-dark btn-lg" onclick="handleChange(0, 9);">A</button>
+              <button id="0-10" type="button" class="btn btn-dark btn-lg" onclick="handleChange(0, 10);">A#/Bb</button>
+              <button id="0-11" type="button" class="btn btn-dark btn-lg" onclick="handleChange(0, 11);">B</button>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+          <div class="card-header">First note to second note</div>
+          <div class="card-body">
+            <h4 id="interval-0-title" class="card-title">C to E</h4>
+            <p class="card-text">
+              <p id="interval-0-text">Major 3rd - M3 - 4 semitones</p>
+            </p>
+          </div>
+        </div>
+        <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+          <div class="card-header">Second note to first note</div>
+          <div class="card-body">
+            <h4 id="interval-1-title" class="card-title">E to C</h4>
+            <p class="card-text">
+              <p id="interval-1-text">Minor 6th - m6 - 8 semitones</p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+                <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+          <div class="card-header">Second note</div>
+          <div class="card-body">
+            <p class="card-text">
+              <button id="1-0" type="button" class="btn btn-dark btn-lg" onclick="handleChange(1, 0);">C</button>
+              <button id="1-1" type="button" class="btn btn-dark btn-lg" onclick="handleChange(1, 1);">C#/Db</button>
+              <button id="1-2" type="button" class="btn btn-dark btn-lg" onclick="handleChange(1, 2);">D</button>
+              <button id="1-3" type="button" class="btn btn-dark btn-lg" onclick="handleChange(1, 3);">D#/Eb</button>
+              <button id="1-4" type="button" class="btn btn-dark btn-lg" onclick="handleChange(1, 4);">E</button>
+              <button id="1-5" type="button" class="btn btn-dark btn-lg" onclick="handleChange(1, 5);">F</button>
+              <button id="1-6" type="button" class="btn btn-dark btn-lg" onclick="handleChange(1, 6);">F#/Gb</button>
+              <button id="1-7" type="button" class="btn btn-dark btn-lg" onclick="handleChange(1, 7);">G</button>
+              <button id="1-8" type="button" class="btn btn-dark btn-lg" onclick="handleChange(1, 8);">G#\Ab</button>
+              <button id="1-9" type="button" class="btn btn-dark btn-lg" onclick="handleChange(1, 9);">A</button>
+              <button id="1-10" type="button" class="btn btn-dark btn-lg" onclick="handleChange(1, 10);">A#/Bb</button>
+              <button id="1-11" type="button" class="btn btn-dark btn-lg" onclick="handleChange(1, 11);">B</button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
