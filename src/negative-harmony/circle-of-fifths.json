@@ -1,0 +1,78 @@
+{
+  "notes": [
+    { "index": 0, "name": { "sharp": "C", "flat": "C" } },
+    { "index": 1, "name": { "sharp": "C#", "flat": "Db" } },
+    { "index": 2, "name": { "sharp": "D", "flat": "D" } },
+    { "index": 3, "name": { "sharp": "D#", "flat": "Eb" } },
+    { "index": 4, "name": { "sharp": "E", "flat": "E" } },
+    { "index": 5, "name": { "sharp": "F", "flat": "F" } },
+    { "index": 6, "name": { "sharp": "F#", "flat": "Gb" } },
+    { "index": 7, "name": { "sharp": "G", "flat": "G" } },
+    { "index": 8, "name": { "sharp": "G#", "flat": "Ab" } },
+    { "index": 9, "name": { "sharp": "A", "flat": "A" } },
+    { "index": 10, "name": { "sharp": "A#", "flat": "Bb" } },
+    { "index": 11, "name": { "sharp": "B", "flat": "B" } }
+  ],
+  "circle": [
+    {
+      "key": { "sharps": 0, "flats": 0 },
+      "major": 0,
+      "minor": 9
+    },
+    {
+      "key": { "sharps": 1, "flats": 0 },
+      "major": 7,
+      "minor": 4
+    },
+    {
+      "key": { "sharps": 2, "flats": 0 },
+      "major": 2,
+      "minor": 11
+    },
+    {
+      "key": { "sharps": 3, "flats": 0 },
+      "major": 9,
+      "minor": 6
+    },
+    {
+      "key": { "sharps": 4, "flats": 0 },
+      "major": 4,
+      "minor": 1
+    },
+    {
+      "key": { "sharps": 5, "flats": 0 },
+      "major": 11,
+      "minor": 8
+    },
+    {
+      "key": { "sharps": 0, "flats": 6 },
+      "major": 6,
+      "minor": 3
+    },
+    {
+      "key": { "sharps": 0, "flats": 5 },
+      "major": 1,
+      "minor": 10
+    },
+    {
+      "key": { "sharps": 0, "flats": 4 },
+      "major": 8,
+      "minor": 5
+    },
+    {
+      "key": { "sharps": 0, "flats": 3 },
+      "major": 3,
+      "minor": 0
+    },
+    {
+      "key": { "sharps": 0, "flats": 2 },
+      "major": 10,
+      "minor": 7
+    },
+    {
+      "key": { "sharps": 0, "flats": 1 },
+      "major": 5,
+      "minor": 2
+    }
+  ]
+}
