@@ -29,12 +29,12 @@ const keys = [
   { major: 5, minor: 2, offset: 11 }
 ]
 const negativeHarmonyMappings = [
-  {aIndex: 0, bIndex: 1},
-  {aIndex: 11, bIndex: 2},
-  {aIndex: 10, bIndex: 3},
-  {aIndex: 9, bIndex: 4},
-  {aIndex: 8, bIndex: 5},
-  {aIndex: 7, bIndex: 6},
+  {title: "1 - 5", color: "info", aIndex: 0, bIndex: 1},
+  {title: "4 - 2", color: "danger", aIndex: 11, bIndex: 2},
+  {title: "b7 - 6", color: "danger", aIndex: 10, bIndex: 3},
+  {title: "b3 - 3", color: "info", aIndex: 9, bIndex: 4},
+  {title: "b6 - 7", color: "danger", aIndex: 8, bIndex: 5},
+  {title: "b2 - b5", color: "danger", aIndex: 7, bIndex: 6},
 ]
 
 // handler: handle selection
@@ -52,8 +52,59 @@ const handleSelection = (value) => {
   const mappings = negativeHarmonyMappings.map(mapping => {
     const aNote = notes[circle[mapping.aIndex]]
     const bNote = notes[circle[mapping.bIndex]]
-    return { a: aNote, b: bNote }
+    return Object.assign({}, mapping, { a: aNote, b: bNote })
   })
+
+  removeMappings()
+
+  addMappings(mappings)
+}
+
+const removeMappings = () => {
+  const row = document.getElementById('mapping-row')
+  while (row.firstChild) {
+    row.removeChild(row.firstChild)
+  }
+}
+
+const addMappings = mappings => {
+  for (let i = 0; i < mappings.length; i++) {
+    addMapping(mappings[i])
+  }
+}
+
+const addMapping = mapping =>  {
+  const mappingColumn = createMapping(mapping)
+  const row = document.getElementById('mapping-row')
+  row.appendChild(mappingColumn)
+}
+
+const createMapping = mapping => {
+  const column = document.createElement('div')
+  column.classList.add('col-md-3')
+  
+  const card = document.createElement('div')
+  card.classList.add('card','text-white', `border-${mapping.color}`,'mb-3')
+  
+  const header = document.createElement('div')
+  header.classList.add('card-header')
+  const headerText = document.createTextNode(mapping.title)
+  header.appendChild(headerText)
+  
+  const body = document.createElement('div')
+  body.classList.add('card-body')
+  
+  const text = document.createElement('p')
+  text.classList.add('card-text')
+  const textNode = document.createTextNode(`${mapping.a.name.default} - ${mapping.b.name.default}`)
+  
+  text.appendChild(textNode)
+  body.appendChild(text)
+  card.appendChild(header)
+  card.appendChild(body)
+  column.appendChild(card)
+
+  return column
 }
 
 // default
