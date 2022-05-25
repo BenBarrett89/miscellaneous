@@ -1,0 +1,57 @@
+{
+	Page (page: 1, perPage: 50) {
+    pageInfo {
+      total
+      currentPage
+      lastPage
+      hasNextPage
+      perPage
+    }
+    mediaList (userName: "name", status:COMPLETED, type:ANIME, sort:SCORE_DESC) {
+      score,
+      media {
+        id,
+        averageScore,
+        seasonYear,
+        season,
+        genres,
+        source,
+        countryOfOrigin,
+      	title {
+      	  english
+      	}
+        tags {
+          name,
+          rank
+        },
+        # staff {
+        #   pageInfo {
+        #     total
+        #     perPage
+        #     currentPage
+        #     lastPage
+        #     hasNextPage
+        #   }
+        # },
+        # studios {
+        #   pageInfo {
+        #     total
+        #     perPage
+        #     currentPage
+        #     lastPage
+        #     hasNextPage
+        #   }
+        # },
+        # recommendations {
+        #   pageInfo {
+        #     total
+        #     perPage
+        #     currentPage
+        #     lastPage
+        #     hasNextPage
+        #   }
+        # }
+      }
+    }
+  }
+}
