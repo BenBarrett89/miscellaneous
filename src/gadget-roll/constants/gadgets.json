@@ -268,7 +268,7 @@
       "country": "EG",
       "type": "Legendary Vintage Organ",
       "timbres": [],
-      "uses": ["Harmony"],
+      "uses": ["Melody","Harmony"],
       "image": "https://cdn.korg.com/us/products/upload/940246bb8eb53bc95e3965f374c46bd5_pc.png",
       "description": "This is a powerful organ gadget that samples a variety of sounds from a traditional classic organ. With an impressive rotary speaker, vibrato and chorus sounds, and an overdrive circuit that adds warm distortion, it's easy to produce realistic organ sounds."
     },
@@ -277,7 +277,7 @@
       "country": "IT",
       "type": "Funky Electric Keyboard",
       "timbres": [],
-      "uses": ["Harmony"],
+      "uses": ["Melody","Harmony"],
       "image": "https://cdn.korg.com/us/products/upload/4b9c64447720cc314dcd9b5d7a4a1598_pc.png",
       "description": "This is a Clav gadget that reproduces a classic instrument noted for its percussive sound and strong beat. The pickup and filter can be controlled with separate switches, making it easy to experiment with changes in the sound. Other carefully selected parameters indispensable for the Clav include a Mute slider that adjusts the decay."
     },
