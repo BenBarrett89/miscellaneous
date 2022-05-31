@@ -379,6 +379,15 @@
       "uses": ["Melody", "Harmony"],
       "image": "https://cdn.korg.com/us/products/upload/7b0fb571ac6ba3b8ede65ebb898d056b_pc.png",
       "description": "The Sophisticated Wavetable Synthesizer \"ELECTRIBE Wave\", capable of creating innovative and cutting-edge sounds, has been Gadgetized. Unlike a PCM synth, a wavetable synthesizer allows you to repeatedly play fragments of short waveforms and change the waveform position during playback. By combining a wavetable oscillator with a powerful filter and two modulation units, you can create a variety of sounds."
+    },
+    {
+      "name": "Fairbanks",
+      "country": "US",
+      "type": "Hybrid Digital Synthesizer",
+      "timbres": [],
+      "uses": ["Melody", "Harmony", "Bass"],
+      "image": "https://cdn.korg.com/uk/products/upload/117b0b35c86619c13777d03ad89b678e_pc.png",
+      "description": "Fairbanks is built on a brand new engine that allows you to create a wide variety of rich and powerful sounds ranging from warm analog sounds to sharp synth leads to shimmering FM sounds - even tempo-synced sequences. Each sound has the optimal parameters selected on the interface so you can quickly adjust to suit your preferences."
     }
   ]
 }
