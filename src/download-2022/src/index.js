@@ -53,7 +53,7 @@ const bandOn = day => artist => day == artist.day
 
 const arenaStagesOnly = artist => artist.stage && arenaStages.includes(artist.stage)
 
-const forExport = artist => ({ startTime: artist.startTime, endTime: artist.endTime, stage: artist.stage, name: artist.name, genres: artist.genres ? artist.genres.join(" ") : "" })
+const forExport = artist => ({ startTime: artist.startTime, endTime: artist.endTime, stage: artist.stage, name: artist.name, time: artist.time, genres: artist.genres ? artist.genres.join(" ") : "" })
 
 const run = async () => {
   const artistsPageResponse = await axios.get(artistsUrl)
@@ -146,21 +146,21 @@ const run = async () => {
     return dayStages
   })
 
-  fs.writeFileSync(
-    path.join(dataDirectory,'friday.json'),
-    JSON.stringify({ artists: dayStages[0] }),
-    encoding
-  )
-  fs.writeFileSync(
-    path.join(dataDirectory,'saturday.json'),
-    JSON.stringify({ artists: dayStages[1] }),
-    encoding
-  )
-  fs.writeFileSync(
-    path.join(dataDirectory,'sunday.json'),
-    JSON.stringify({ artists: dayStages[2] }),
-    encoding
-  )
+  // fs.writeFileSync(
+  //   path.join(dataDirectory,'friday.json'),
+  //   JSON.stringify({ artists: dayStages[0] }),
+  //   encoding
+  // )
+  // fs.writeFileSync(
+  //   path.join(dataDirectory,'saturday.json'),
+  //   JSON.stringify({ artists: dayStages[1] }),
+  //   encoding
+  // )
+  // fs.writeFileSync(
+  //   path.join(dataDirectory,'sunday.json'),
+  //   JSON.stringify({ artists: dayStages[2] }),
+  //   encoding
+  // )
 
   const fridayJSON = friday.filter(arenaStagesOnly).sort(byStartTime).map(forExport)
   const saturdayJSON = saturday.filter(arenaStagesOnly).sort(byStartTime).map(forExport)
