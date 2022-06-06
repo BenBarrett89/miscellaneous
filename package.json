@@ -23,7 +23,7 @@
     "jasmine": "^2.5.3"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "cheerio": "^1.0.0-rc.2",
     "colors": "^1.4.0",
     "ipt": "^2.1.3",
