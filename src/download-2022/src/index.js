@@ -2,6 +2,7 @@ const axios = require('axios').default
 const cheerio = require('cheerio')
 const fs = require('fs')
 const path = require('path')
+const XLSX = require('xlsx')
 
 const artistsUrl = 'https://downloadfestival.co.uk/artists-a-z/'
 const stages = [
@@ -20,6 +21,9 @@ const stageMap = {
   'the-sidesplitter-stage': 'the-sidesplitter-stage',
   'the-dog-house': 'The Doghouse'
 }
+const arenaStages = [
+  'Avalanche Stage', 'Apex Stage', 'Opus Stage', 'The Dogtooth Stage'
+]
 const trash = [
   'artist',
   'day-all',
@@ -43,7 +47,13 @@ const byStageTime = (a, b) => {
   return aTime < bTime ? -1 : 1
 }
 
+const byStartTime = (a, b) => a.startTime < b.startTime ? -1 : 1
+
 const bandOn = day => artist => day == artist.day
+
+const arenaStagesOnly = artist => artist.stage && arenaStages.includes(artist.stage)
+
+const forExport = artist => ({ startTime: artist.startTime, endTime: artist.endTime, stage: artist.stage, name: artist.name, genres: artist.genres ? artist.genres.join(" ") : "" })
 
 const run = async () => {
   const artistsPageResponse = await axios.get(artistsUrl)
@@ -96,7 +106,8 @@ const run = async () => {
       const artistPageResponse = await axios.get(artist.link)
       let artistPage = cheerio.load(artistPageResponse.data)
       const time = artistPage('.time strong').text()
-      const [startTime, endTime] = time.split(" – ")
+      let [startTime, endTime] = time.split(" – ")
+      startTime = startTime.length ? startTime : "11:00"
       
       return Object.assign({}, artist, {
         time,
@@ -150,6 +161,21 @@ const run = async () => {
     JSON.stringify({ artists: dayStages[2] }),
     encoding
   )
+
+  const fridayJSON = friday.filter(arenaStagesOnly).sort(byStartTime).map(forExport)
+  const saturdayJSON = saturday.filter(arenaStagesOnly).sort(byStartTime).map(forExport)
+  const sundayJSON = sunday.filter(arenaStagesOnly).sort(byStartTime).map(forExport)
+
+  let workBook = XLSX.utils.book_new()
+
+  const fridayWS = XLSX.utils.json_to_sheet(fridayJSON)
+  XLSX.utils.book_append_sheet(workBook, fridayWS, `Friday`)
+  const saturdayWS = XLSX.utils.json_to_sheet(saturdayJSON)
+  XLSX.utils.book_append_sheet(workBook, saturdayWS, `Saturday`)
+  const sundayWS = XLSX.utils.json_to_sheet(sundayJSON)
+  XLSX.utils.book_append_sheet(workBook, sundayWS, `Sunday`)
+
+  XLSX.writeFile(workBook, path.join(dataDirectory, 'DL2022.xls'))
 }
 
 run()
