@@ -1,0 +1,491 @@
+{
+  "artists": {
+    "Avalanche Stage": [
+      {
+        "name": "Static Dress",
+        "link": "https://downloadfestival.co.uk/artists-a-z/static-dress/",
+        "genres": [
+          "Punk"
+        ],
+        "stage": "Avalanche Stage",
+        "day": "Sunday",
+        "time": "11:00 – 11:25",
+        "startTime": "11:00",
+        "endTime": "11:25"
+      },
+      {
+        "name": "Dead Posey",
+        "link": "https://downloadfestival.co.uk/artists-a-z/dead-posey/",
+        "genres": [
+          "Rock"
+        ],
+        "stage": "Avalanche Stage",
+        "day": "Sunday",
+        "time": "11:50 – 12:20",
+        "startTime": "11:50",
+        "endTime": "12:20"
+      },
+      {
+        "name": "Cemetery Sun",
+        "link": "https://downloadfestival.co.uk/artists-a-z/cemetery-sun/",
+        "genres": [
+          "Rock"
+        ],
+        "stage": "Avalanche Stage",
+        "day": "Sunday",
+        "time": "12:50 – 13:20",
+        "startTime": "12:50",
+        "endTime": "13:20"
+      },
+      {
+        "name": "The Hara",
+        "link": "https://downloadfestival.co.uk/artists-a-z/the-hara/",
+        "genres": [
+          "Rock"
+        ],
+        "stage": "Avalanche Stage",
+        "day": "Sunday",
+        "time": "13:50 – 14:20",
+        "startTime": "13:50",
+        "endTime": "14:20"
+      },
+      {
+        "name": "Jamie Lenman",
+        "link": "https://downloadfestival.co.uk/artists-a-z/jamie-lenman/",
+        "genres": [
+          "Rock"
+        ],
+        "stage": "Avalanche Stage",
+        "day": "Sunday",
+        "time": "14:50 – 15:20",
+        "startTime": "14:50",
+        "endTime": "15:20"
+      },
+      {
+        "name": "Marianas Trench",
+        "link": "https://downloadfestival.co.uk/artists-a-z/marianas-trench/",
+        "genres": [
+          "Rock"
+        ],
+        "stage": "Avalanche Stage",
+        "day": "Sunday",
+        "time": "15:50 – 16:20",
+        "startTime": "15:50",
+        "endTime": "16:20"
+      },
+      {
+        "name": "Spiritbox",
+        "link": "https://downloadfestival.co.uk/artists-a-z/spiritbox/",
+        "genres": [
+          "Metal"
+        ],
+        "stage": "Avalanche Stage",
+        "day": "Sunday",
+        "time": "16:50 – 17:20",
+        "startTime": "16:50",
+        "endTime": "17:20"
+      },
+      {
+        "name": "Trash Boat",
+        "link": "https://downloadfestival.co.uk/artists-a-z/trash-boat/",
+        "genres": [
+          "Punk"
+        ],
+        "stage": "Avalanche Stage",
+        "day": "Sunday",
+        "time": "17:50 – 18:30",
+        "startTime": "17:50",
+        "endTime": "18:30"
+      },
+      {
+        "name": "Boston Manor",
+        "link": "https://downloadfestival.co.uk/artists-a-z/boston-manor/",
+        "genres": [
+          "Punk"
+        ],
+        "stage": "Avalanche Stage",
+        "day": "Sunday",
+        "time": "19:00 – 19:40",
+        "startTime": "19:00",
+        "endTime": "19:40"
+      },
+      {
+        "name": "Descendents",
+        "link": "https://downloadfestival.co.uk/artists-a-z/descendents/",
+        "genres": [
+          "Punk"
+        ],
+        "stage": "Avalanche Stage",
+        "day": "Sunday",
+        "time": "20:10 – 21:10",
+        "startTime": "20:10",
+        "endTime": "21:10"
+      }
+    ],
+    "Apex Stage": [
+      {
+        "name": "Wargasm",
+        "link": "https://downloadfestival.co.uk/artists-a-z/wargasm/",
+        "genres": [
+          "Experimental",
+          "Rock"
+        ],
+        "stage": "Apex Stage",
+        "day": "Sunday",
+        "time": "11:00 – 11:45",
+        "startTime": "11:00",
+        "endTime": "11:45"
+      },
+      {
+        "name": "Powerwolf",
+        "link": "https://downloadfestival.co.uk/artists-a-z/powerwolf/",
+        "genres": [
+          "Metal"
+        ],
+        "stage": "Apex Stage",
+        "day": "Sunday",
+        "time": "12:20 – 13:10",
+        "startTime": "12:20",
+        "endTime": "13:10"
+      },
+      {
+        "name": "Alestorm",
+        "link": "https://downloadfestival.co.uk/artists-a-z/alestorm/",
+        "genres": [
+          "Metal"
+        ],
+        "stage": "Apex Stage",
+        "day": "Sunday",
+        "time": "13:45 – 14:40",
+        "startTime": "13:45",
+        "endTime": "14:40"
+      },
+      {
+        "name": "Rise Against",
+        "link": "https://downloadfestival.co.uk/artists-a-z/rise-against/",
+        "genres": [
+          "Punk"
+        ],
+        "stage": "Apex Stage",
+        "day": "Sunday",
+        "time": "15:15 – 16:15",
+        "startTime": "15:15",
+        "endTime": "16:15"
+      },
+      {
+        "name": "Volbeat",
+        "link": "https://downloadfestival.co.uk/artists-a-z/volbeat/",
+        "genres": [
+          "Rock"
+        ],
+        "stage": "Apex Stage",
+        "day": "Sunday",
+        "time": "16:50 – 17:50",
+        "startTime": "16:50",
+        "endTime": "17:50"
+      },
+      {
+        "name": "Korn",
+        "link": "https://downloadfestival.co.uk/artists-a-z/korn/",
+        "genres": [
+          "Metal"
+        ],
+        "stage": "Apex Stage",
+        "day": "Sunday",
+        "time": "18:30 – 19:40",
+        "startTime": "18:30",
+        "endTime": "19:40"
+      },
+      {
+        "name": "Biffy Clyro",
+        "link": "https://downloadfestival.co.uk/artists-a-z/biffy-clyro/",
+        "genres": [
+          "Rock"
+        ],
+        "stage": "Apex Stage",
+        "day": "Sunday",
+        "time": "21:10 – 22:50",
+        "startTime": "21:10",
+        "endTime": "22:50"
+      }
+    ],
+    "Opus Stage": [
+      {
+        "name": "Control The Storm",
+        "link": "https://downloadfestival.co.uk/artists-a-z/control-the-storm/",
+        "genres": [
+          "Metal"
+        ],
+        "stage": "Opus Stage",
+        "day": "Sunday",
+        "time": "11:15 – 11:50",
+        "startTime": "11:15",
+        "endTime": "11:50"
+      },
+      {
+        "name": "The Last Internationale",
+        "link": "https://downloadfestival.co.uk/artists-a-z/the-last-internationale/",
+        "genres": [
+          "Rock"
+        ],
+        "stage": "Opus Stage",
+        "day": "Sunday",
+        "time": "12:20 – 12:55",
+        "startTime": "12:20",
+        "endTime": "12:55"
+      },
+      {
+        "name": "Massive Wagons",
+        "link": "https://downloadfestival.co.uk/artists-a-z/massive-wagons/",
+        "genres": [
+          "Rock"
+        ],
+        "stage": "Opus Stage",
+        "day": "Sunday",
+        "time": "13:25 – 14:05",
+        "startTime": "13:25",
+        "endTime": "14:05"
+      },
+      {
+        "name": "Tremonti",
+        "link": "https://downloadfestival.co.uk/artists-a-z/tremonti/",
+        "genres": [
+          "Metal"
+        ],
+        "stage": "Opus Stage",
+        "day": "Sunday",
+        "time": "14:35 – 15:20",
+        "startTime": "14:35",
+        "endTime": "15:20"
+      },
+      {
+        "name": "Baroness",
+        "link": "https://downloadfestival.co.uk/artists-a-z/baroness/",
+        "genres": [
+          "Metal"
+        ],
+        "stage": "Opus Stage",
+        "day": "Sunday",
+        "time": "15:55 – 16:40",
+        "startTime": "15:55",
+        "endTime": "16:40"
+      },
+      {
+        "name": "Skillet",
+        "link": "https://downloadfestival.co.uk/artists-a-z/skillet/",
+        "genres": [
+          "Rock"
+        ],
+        "stage": "Opus Stage",
+        "day": "Sunday",
+        "time": "17:15 – 18:00",
+        "startTime": "17:15",
+        "endTime": "18:00"
+      },
+      {
+        "name": "The Darkness",
+        "link": "https://downloadfestival.co.uk/artists-a-z/the-darkness/",
+        "genres": [
+          "Rock"
+        ],
+        "stage": "Opus Stage",
+        "day": "Sunday",
+        "time": "18:35 – 19:25",
+        "startTime": "18:35",
+        "endTime": "19:25"
+      },
+      {
+        "name": "Steel Panther",
+        "link": "https://downloadfestival.co.uk/artists-a-z/steel-panther/",
+        "genres": [
+          "Rock"
+        ],
+        "stage": "Opus Stage",
+        "day": "Sunday",
+        "time": "20:00 – 21:10",
+        "startTime": "20:00",
+        "endTime": "21:10"
+      }
+    ],
+    "The Dogtooth Stage": [
+      {
+        "name": "The Injester",
+        "link": "https://downloadfestival.co.uk/artists-a-z/the-injester/",
+        "genres": [
+          "Metal"
+        ],
+        "stage": "The Dogtooth Stage",
+        "day": "Sunday",
+        "time": "11:00 – 11:25",
+        "startTime": "11:00",
+        "endTime": "11:25"
+      },
+      {
+        "name": "The Velveteers",
+        "link": "https://downloadfestival.co.uk/artists-a-z/the-velveteers/",
+        "genres": [
+          "Rock"
+        ],
+        "stage": "The Dogtooth Stage",
+        "day": "Sunday",
+        "time": "11:50 – 12:15",
+        "startTime": "11:50",
+        "endTime": "12:15"
+      },
+      {
+        "name": "Anchor Lane",
+        "link": "https://downloadfestival.co.uk/artists-a-z/anchor-lane/",
+        "genres": [
+          "Rock"
+        ],
+        "stage": "The Dogtooth Stage",
+        "day": "Sunday",
+        "time": "12:40 – 13:05",
+        "startTime": "12:40",
+        "endTime": "13:05"
+      },
+      {
+        "name": "Bimini",
+        "link": "https://downloadfestival.co.uk/artists-a-z/bimini/",
+        "genres": [
+          "Experimental"
+        ],
+        "stage": "The Dogtooth Stage",
+        "day": "Sunday",
+        "time": "13:30 – 14:00",
+        "startTime": "13:30",
+        "endTime": "14:00"
+      },
+      {
+        "name": "Phoxjaw",
+        "link": "https://downloadfestival.co.uk/artists-a-z/phoxjaw/",
+        "genres": [
+          "Rock"
+        ],
+        "stage": "The Dogtooth Stage",
+        "day": "Sunday",
+        "time": "14:25 – 14:55",
+        "startTime": "14:25",
+        "endTime": "14:55"
+      },
+      {
+        "name": "Modern Error",
+        "link": "https://downloadfestival.co.uk/artists-a-z/modern-error/",
+        "genres": [
+          "Punk"
+        ],
+        "stage": "The Dogtooth Stage",
+        "day": "Sunday",
+        "time": "15:20 – 15:50",
+        "startTime": "15:20",
+        "endTime": "15:50"
+      },
+      {
+        "name": "Kill The Lights",
+        "link": "https://downloadfestival.co.uk/artists-a-z/kill-the-lights/",
+        "genres": [
+          "Metal"
+        ],
+        "stage": "The Dogtooth Stage",
+        "day": "Sunday",
+        "time": "16:15 – 16:45",
+        "startTime": "16:15",
+        "endTime": "16:45"
+      },
+      {
+        "name": "Orbit Culture",
+        "link": "https://downloadfestival.co.uk/artists-a-z/orbit-culture/",
+        "genres": [
+          "Metal"
+        ],
+        "stage": "The Dogtooth Stage",
+        "day": "Sunday",
+        "time": "17:20 – 17:50",
+        "startTime": "17:20",
+        "endTime": "17:50"
+      },
+      {
+        "name": "Fire From The Gods",
+        "link": "https://downloadfestival.co.uk/artists-a-z/fire-from-the-gods/",
+        "genres": [
+          "Metal"
+        ],
+        "stage": "The Dogtooth Stage",
+        "day": "Sunday",
+        "time": "18:15 – 18:45",
+        "startTime": "18:15",
+        "endTime": "18:45"
+      },
+      {
+        "name": "Twin Temple",
+        "link": "https://downloadfestival.co.uk/artists-a-z/twin-temple/",
+        "genres": [
+          "Experimental",
+          "Indie"
+        ],
+        "stage": "The Dogtooth Stage",
+        "day": "Sunday",
+        "time": "19:10 – 19:40",
+        "startTime": "19:10",
+        "endTime": "19:40"
+      },
+      {
+        "name": "Yonaka",
+        "link": "https://downloadfestival.co.uk/artists-a-z/yonaka/",
+        "genres": [
+          "Rock"
+        ],
+        "stage": "The Dogtooth Stage",
+        "day": "Sunday",
+        "time": "20:10 – 20:40",
+        "startTime": "20:10",
+        "endTime": "20:40"
+      },
+      {
+        "name": "Myles Kennedy",
+        "link": "https://downloadfestival.co.uk/artists-a-z/myles-kennedy-only-uk-acoustic-performance/",
+        "genres": [
+          "Rock"
+        ],
+        "stage": "The Dogtooth Stage",
+        "day": "Sunday",
+        "time": "21:10 – 21:55",
+        "startTime": "21:10",
+        "endTime": "21:55"
+      }
+    ],
+    "the-sidesplitter-stage": [],
+    "The Doghouse": [
+      {
+        "name": "Zoe London",
+        "link": "https://downloadfestival.co.uk/artists-a-z/zoe-london/",
+        "genres": [],
+        "stage": "The Doghouse",
+        "day": "Sunday",
+        "time": "00:30 – 02:00",
+        "startTime": "00:30",
+        "endTime": "02:00"
+      },
+      {
+        "name": "Lais MW & Lauren Cornelius",
+        "link": "https://downloadfestival.co.uk/artists-a-z/lais-mw-lauren-cornelius/",
+        "genres": [],
+        "stage": "The Doghouse",
+        "day": "Sunday",
+        "time": "22:00 – 23:30",
+        "startTime": "22:00",
+        "endTime": "23:30"
+      },
+      {
+        "name": "Uprawr",
+        "link": "https://downloadfestival.co.uk/artists-a-z/uprawr/",
+        "genres": [],
+        "stage": "The Doghouse",
+        "day": "Sunday",
+        "time": "23:30 – 01:30",
+        "startTime": "23:30",
+        "endTime": "01:30"
+      }
+    ]
+  }
+}
