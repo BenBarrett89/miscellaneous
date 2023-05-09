@@ -1,0 +1,16 @@
+{
+  "name": "download-2023",
+  "version": "0.0.1",
+  "description": "An attempt to scrape the artists from the [Download website Artist A-Z page](https://downloadfestival.co.uk/artists-a-z/) with a hope to use these in a spreadsheet when working out which bands I intend on seeing and possibly even creating my own timetable once the times are released.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "BenBarrett89",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "xlsx": "^0.18.5"
+  }
+}
