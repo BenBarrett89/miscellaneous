@@ -50,6 +50,7 @@ const byStageTime = (a, b) => {
 const byStartTime = (a, b) => a.startTime < b.startTime ? -1 : 1
 
 const bandOn = day => artist => day == artist.day
+const bandNotOn = day => artist => day != artist.day
 
 const arenaStagesOnly = artist => artist.stage && arenaStages.includes(artist.stage)
 
@@ -107,6 +108,8 @@ const run = async () => {
     artistArray.map(async artist => {
       const artistPageResponse = await axios.get(artist.link)
       let artistPage = cheerio.load(artistPageResponse.data)
+
+      // TODO - refactor this; the artist may play on multiple days
       const time = artistPage('.time strong').text()
       let [startTime, endTime] = time.split(" – ")
       startTime = startTime.length ? startTime : "11:00"
@@ -127,6 +130,8 @@ const run = async () => {
     encoding
   )
 
+  const wednesday = artists.filter(bandOn('Wednesday'))
+  console.log(`Artists on Wednesday: ${wednesday.length}`)
   const thursday = artists.filter(bandOn('Thursday'))
   console.log(`Artists on Thursday: ${thursday.length}`)
   const friday = artists.filter(bandOn('Friday'))
@@ -136,14 +141,22 @@ const run = async () => {
   const sunday = artists.filter(bandOn('Sunday'))
   console.log(`Artists on Sunday: ${sunday.length}`)
 
-  const differenceInNumber = artists.length - (thursday.length + friday.length + saturday.length + sunday.length)
+  const unrecognisedDay = artists
+    .filter(bandNotOn('Wednesday'))
+    .filter(bandNotOn('Thursday'))
+    .filter(bandNotOn('Friday'))
+    .filter(bandNotOn('Saturday'))
+    .filter(bandNotOn('Sunday'))
+
+  const differenceInNumber = artists.length - (wednesday.length + thursday.length + friday.length + saturday.length + sunday.length)
   if (differenceInNumber !== 0) {
     console.error(`Some artists not found on standard days! Difference: ${differenceInNumber}`)
+    unrecognisedDay.forEach((artist, i) => console.log(`${i+1}: ${artist.name} on ${artist.day}`))
   } else {
     console.log(`All artists sorted into known days`)
   }
 
-  const days = [thursday, friday, saturday, sunday]
+  const days = [wednesday, thursday, friday, saturday, sunday]
 
   const stageSplit = stages.reduce((result, stage) => Object.assign({}, result, {[stageMap[stage]]:[]}),{})
   
@@ -156,7 +169,7 @@ const run = async () => {
         const newStage = stageArray.concat(artist).sort(byStageTime)
         dayStages[stage] = newStage
       } else {
-        console.log(`No stage: ${artist.name}`)
+        console.log(`No stage: ${artist.name} (${artist.startTime} on ${artist.day})`)
       }
     })
     return dayStages
